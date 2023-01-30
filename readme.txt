@@ -1,7 +1,6 @@
 === Pronamic Pay with Mollie for Contact Form 7 ===
 Contributors: pronamic
 Tags: mollie, contact, form, contact form, payment, donation
-Donate link: https://www.pronamicpay.com/en/donate/
 Requires at least: 5.9
 Tested up to: 6.1
 Requires PHP: 8.0
