@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "56c325a5402d99ed24a2ed3f1bc88469",
+    "content-hash": "4bcb84c1b02c5920d6d657ba9ee85749",
     "packages": [
         {
             "name": "automattic/jetpack-autoloader",
@@ -3584,68 +3584,6 @@
             "time": "2022-10-28T17:58:13+00:00"
         },
         {
-            "name": "wp-cli/dist-archive-command",
-            "version": "dev-main",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/wp-cli/dist-archive-command.git",
-                "reference": "e892d8527dcdcd50ea15d8331f3cad7d78592242"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/wp-cli/dist-archive-command/zipball/e892d8527dcdcd50ea15d8331f3cad7d78592242",
-                "reference": "e892d8527dcdcd50ea15d8331f3cad7d78592242",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.6",
-                "wp-cli/wp-cli": "^2"
-            },
-            "require-dev": {
-                "wp-cli/extension-command": "^2",
-                "wp-cli/scaffold-command": "^2",
-                "wp-cli/wp-cli-tests": "^3"
-            },
-            "default-branch": true,
-            "type": "wp-cli-package",
-            "extra": {
-                "commands": [
-                    "dist-archive"
-                ],
-                "readme": {
-                    "shields": [
-                        "[![Testing](https://github.com/wp-cli/dist-archive-command/actions/workflows/testing.yml/badge.svg)](https://github.com/wp-cli/dist-archive-command/actions/workflows/testing.yml)"
-                    ]
-                }
-            },
-            "autoload": {
-                "files": [
-                    "dist-archive-command.php"
-                ],
-                "psr-4": {
-                    "": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Daniel Bachhuber",
-                    "email": "daniel@runcommand.io",
-                    "homepage": "https://runcommand.io"
-                }
-            ],
-            "description": "Create a distribution .zip or .tar.gz based on a plugin or theme's .distignore file.",
-            "homepage": "https://github.com/wp-cli/dist-archive-command/",
-            "support": {
-                "issues": "https://github.com/wp-cli/dist-archive-command/issues",
-                "source": "https://github.com/wp-cli/dist-archive-command/tree/main"
-            },
-            "time": "2023-01-12T03:41:36+00:00"
-        },
-        {
             "name": "wp-cli/embed-command",
             "version": "v2.0.11",
             "source": {
@@ -5366,7 +5304,6 @@
         "wp-pay/core": 20,
         "wp-pay-extensions/contact-form-7": 20,
         "wp-pay-gateways/mollie": 20,
-        "wp-cli/dist-archive-command": 20,
         "wp-cli/wp-cli": 20,
         "wp-cli/wp-cli-bundle": 20
     },
