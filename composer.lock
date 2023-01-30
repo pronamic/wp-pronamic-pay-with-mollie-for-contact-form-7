@@ -669,17 +669,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/pronamic/wp-pronamic-pay-contact-form-7.git",
-                "reference": "7b7bb374744f953bc452fc4f710671f0303cd39c"
+                "reference": "3cb50cde93003263f076395363efef7fcd5c947e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pronamic/wp-pronamic-pay-contact-form-7/zipball/7b7bb374744f953bc452fc4f710671f0303cd39c",
-                "reference": "7b7bb374744f953bc452fc4f710671f0303cd39c",
+                "url": "https://api.github.com/repos/pronamic/wp-pronamic-pay-contact-form-7/zipball/3cb50cde93003263f076395363efef7fcd5c947e",
+                "reference": "3cb50cde93003263f076395363efef7fcd5c947e",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
-                "php": ">=8.0",
+                "php": ">=7.4",
                 "wp-pay/core": "^4.6"
             },
             "require-dev": {
@@ -735,7 +735,7 @@
                 "issues": "https://github.com/wp-pay-extensions/contact-form-7/issues",
                 "source": "https://github.com/wp-pay-extensions/contact-form-7/"
             },
-            "time": "2023-01-02T09:46:56+00:00"
+            "time": "2023-01-30T14:57:16+00:00"
         },
         {
             "name": "wp-pay-gateways/mollie",
@@ -743,18 +743,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/pronamic/wp-pronamic-pay-mollie.git",
-                "reference": "c9ca7308cc956c888a594d73724bcf02d8d4195c"
+                "reference": "a8d13215e342700f68335d0f16806a0254771580"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pronamic/wp-pronamic-pay-mollie/zipball/c9ca7308cc956c888a594d73724bcf02d8d4195c",
-                "reference": "c9ca7308cc956c888a594d73724bcf02d8d4195c",
+                "url": "https://api.github.com/repos/pronamic/wp-pronamic-pay-mollie/zipball/a8d13215e342700f68335d0f16806a0254771580",
+                "reference": "a8d13215e342700f68335d0f16806a0254771580",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
                 "justinrainbow/json-schema": "^5.2",
-                "php": ">=8.0",
+                "php": ">=7.4",
                 "pronamic/wp-http": "^1.2",
                 "pronamic/wp-mollie": "^1.1",
                 "woocommerce/action-scheduler": "^3.4",
@@ -812,7 +812,7 @@
                 "issues": "https://github.com/wp-pay-gateways/mollie/issues",
                 "source": "https://github.com/wp-pay-gateways/mollie"
             },
-            "time": "2023-01-27T09:13:43+00:00"
+            "time": "2023-01-30T14:55:50+00:00"
         },
         {
             "name": "wp-pay/core",
@@ -820,19 +820,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/pronamic/wp-pay-core.git",
-                "reference": "23d8a0b1f4747e820ef795974cdb5d77b6d34ab9"
+                "reference": "fbb1af11cec8f2f750a0a010dcc2632f3ce66a2d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pronamic/wp-pay-core/zipball/23d8a0b1f4747e820ef795974cdb5d77b6d34ab9",
-                "reference": "23d8a0b1f4747e820ef795974cdb5d77b6d34ab9",
+                "url": "https://api.github.com/repos/pronamic/wp-pay-core/zipball/fbb1af11cec8f2f750a0a010dcc2632f3ce66a2d",
+                "reference": "fbb1af11cec8f2f750a0a010dcc2632f3ce66a2d",
                 "shasum": ""
             },
             "require": {
                 "ext-dom": "*",
                 "ext-libxml": "*",
                 "ext-simplexml": "*",
-                "php": ">=8.0",
+                "php": ">=7.4",
                 "pronamic/wp-datetime": "^2.1",
                 "pronamic/wp-html": "^2.1",
                 "pronamic/wp-http": "^1.2",
@@ -899,7 +899,7 @@
                 "issues": "https://github.com/wp-pay/core/issues",
                 "source": "https://github.com/wp-pay/core"
             },
-            "time": "2023-01-30T10:36:08+00:00"
+            "time": "2023-01-30T14:54:46+00:00"
         }
     ],
     "packages-dev": [
