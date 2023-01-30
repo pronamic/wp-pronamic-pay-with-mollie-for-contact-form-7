@@ -44,10 +44,8 @@ require_once __DIR__ . '/vendor/autoload_packages.php';
 add_filter(
 	'pronamic_pay_plugin_integrations',
 	function( $integrations ) {
-		// Contact Form 7.
 		$integrations[] = new \Pronamic\WordPress\Pay\Extensions\ContactForm7\Extension();
 
-		// Return integrations.
 		return $integrations;
 	}
 );
@@ -55,7 +53,6 @@ add_filter(
 add_filter(
 	'pronamic_pay_gateways',
 	function( $gateways ) {
-		// Mollie.
 		$gateways[] = new \Pronamic\WordPress\Pay\Gateways\Mollie\Integration(
 			[
 				'register_url'           => 'https://www.mollie.com/nl/signup/665327',
@@ -65,7 +62,6 @@ add_filter(
 			]
 		);
 
-		// Return gateways.
 		return $gateways;
 	}
 );
