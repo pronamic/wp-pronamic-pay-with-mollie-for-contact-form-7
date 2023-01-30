@@ -5,6 +5,8 @@ Requires at least: 5.9
 Tested up to: 6.1
 Requires PHP: 8.0
 Stable tag: 1.0.0
+License: GPLv2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 Connect Mollie to Contact Form 7 with Pronamic Pay. This free plugin is all that you need to start selling with Contact Form 7.
 
