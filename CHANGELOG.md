@@ -8,3 +8,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [1.0.0] - 2023-01-30
 
 - First release.
+
+[1.0.0]: https://github.com/pronamic/wp-pronamic-pay-with-mollie-for-contact-form-7/releases/tag/v1.0.0
