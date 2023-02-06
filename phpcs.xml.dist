@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+<ruleset name="Pronamic Pay with Mollie for Contact Form 7">
+	<file>.</file>
+
+	<exclude-pattern>build/*</exclude-pattern>
+	<exclude-pattern>packages/*</exclude-pattern>
+
+	<rule ref="PronamicWP">
+
+	</rule>
+</ruleset>

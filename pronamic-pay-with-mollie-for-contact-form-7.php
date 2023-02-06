@@ -38,7 +38,7 @@ require_once __DIR__ . '/vendor/autoload_packages.php';
 	[
 		'file'                 => __FILE__,
 		'action_scheduler'     => __DIR__ . '/packages/action-scheduler/action-scheduler.php',
-        'pronamic_service_url' => 'https://api.wp-pay.org/wp-json/pronamic-pay/v1/payments',
+		'pronamic_service_url' => 'https://api.wp-pay.org/wp-json/pronamic-pay/v1/payments',
 	]
 );
 
@@ -56,10 +56,8 @@ add_filter(
 	function( $gateways ) {
 		$gateways[] = new \Pronamic\WordPress\Pay\Gateways\Mollie\Integration(
 			[
-				'register_url'           => 'https://www.mollie.com/nl/signup/665327',
-				'manual_url'             => \__( 'https://www.pronamicpay.com/en/manuals/how-to-connect-mollie-to-wordpress-with-pronamic-pay/', 'pronamic-pay-with-mollie-for-contact-form-7' ),
-				'version_option_name'    => 'pronamic_pay_mollie_version',
-				'db_version_option_name' => 'pronamic_pay_mollie_db_version',
+				'register_url' => 'https://www.mollie.com/nl/signup/665327',
+				'manual_url'   => \__( 'https://www.pronamicpay.com/en/manuals/how-to-connect-mollie-to-wordpress-with-pronamic-pay/', 'pronamic-pay-with-mollie-for-contact-form-7' ),
 			]
 		);
 
