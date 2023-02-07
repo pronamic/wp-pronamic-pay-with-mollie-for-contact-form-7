@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "54113c4de4f886f621f5f513a85fbcab",
+    "content-hash": "cea8c8415051b179df0b85a6451ae082",
     "packages": [
         {
             "name": "automattic/jetpack-autoloader",
@@ -2158,6 +2158,53 @@
                 "source": "https://github.com/pronamic/wp-coding-standards"
             },
             "time": "2023-01-31T13:16:21+00:00"
+        },
+        {
+            "name": "pronamic/wp-deployer",
+            "version": "v1.2.13",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pronamic/wp-deployer.git",
+                "reference": "10ed16a60f9b5c2b456a818538ac12f79d125e5f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pronamic/wp-deployer/zipball/10ed16a60f9b5c2b456a818538ac12f79d125e5f",
+                "reference": "10ed16a60f9b5c2b456a818538ac12f79d125e5f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4",
+                "symfony/console": "^5.0 || ^6.0 || ^6.1 || ^6.2",
+                "symfony/filesystem": "^5.0 || ^6.0 || ^6.1 || ^6.2",
+                "symfony/process": "^5.0 || ^6.0 || ^6.1 || ^6.2"
+            },
+            "require-dev": {
+                "pronamic/wp-coding-standards": "^1.3",
+                "yoast/phpunit-polyfills": "^1.0"
+            },
+            "bin": [
+                "bin/wp-deployer"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Pronamic\\Deployer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Pronamic",
+                    "email": "info@pronamic.eu"
+                }
+            ],
+            "description": "WordPress deployer.",
+            "support": {
+                "issues": "https://github.com/pronamic/wp-deployer/issues",
+                "source": "https://github.com/pronamic/wp-deployer/tree/v1.2.13"
+            },
+            "time": "2023-02-07T12:52:38+00:00"
         },
         {
             "name": "psr/container",
