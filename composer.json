@@ -16,11 +16,9 @@
         "sort-packages": true
     },
     "extra": {
-        "installer-paths": {
-            "packages/{$name}": [
-                "woocommerce/action-scheduler"
-            ]
-        }
+        "installer-disable": [
+            "wordpress"
+        ]
     },
     "require": {
         "php": ">=7.4",
