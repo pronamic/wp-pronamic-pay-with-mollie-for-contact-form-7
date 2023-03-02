@@ -1,6 +1,12 @@
-# Pronamic Pay with Mollie for Contact Form 7
+<h1 align="center">Pronamic Pay with Mollie for Contact Form 7</h1>
 
-Pronamic Pay plugin with Mollie for Contact Form 7 integration.
+<p align="center">
+	Pronamic Pay plugin with Mollie for Contact Form 7 integration.
+</p>
+
+## Table of Contents
+
+- [Dependencies](#dependencies)
 
 ## Dependencies
 
