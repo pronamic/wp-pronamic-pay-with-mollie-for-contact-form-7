@@ -16,7 +16,7 @@
 
 ### Pronamic Pay
 
-Pronamic Pay is a plugin/framework/library aimed at receiving payments through WordPress websites. The Pronamic Pay ecosystem includes integrations between popular WordPress plugins and various payment providers. It is maintained  by Pronamic, a Dutch web development agency that specializes in WordPress solutions.
+Pronamic Pay is a plugin/framework/library aimed at receiving payments through WordPress websites. The Pronamic Pay ecosystem includes integrations between popular WordPress plugins and various payment providers. It is maintained by Pronamic, a Dutch web development agency that specializes in WordPress solutions.
 
 ### Contact Form 7
 
