@@ -6,6 +6,9 @@
 # .DS_Store (https://en.wikipedia.org/wiki/.DS_Store)
 .DS_Store
 
+# Composer (https://getcomposer.org/)
+/vendor/
+
 # Node.js (https://nodejs.org/)
 /node_modules/
 
