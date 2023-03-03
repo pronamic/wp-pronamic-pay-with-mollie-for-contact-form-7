@@ -12,7 +12,7 @@ $zip_filename = "$slug.zip";
 
 $gcloud_bucket_name = "gs://downloads.pronamic.eu/plugins/$slug";
 
-echo `gcloud storage cp build/$zip_filename_version $gcloud_bucket_name`;
+echo `gcloud storage cp build/$zip_filename_version $gcloud_bucket_name/$zip_filename_version`;
 
 echo `gcloud storage cp $gcloud_bucket_name/$zip_filename_version $gcloud_bucket_name/$zip_filename`;
 
