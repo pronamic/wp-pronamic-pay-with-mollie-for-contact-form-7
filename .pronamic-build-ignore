@@ -22,9 +22,6 @@
 /phpcs.xml.dist
 /phpcs.xml
 
-# WordPress
-/wordpress/
-
 # WordPress.org
 /.wordpress-org
 
