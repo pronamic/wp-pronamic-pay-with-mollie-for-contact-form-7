@@ -1,7 +1,13 @@
+# EditorConfig (https://editorconfig.org/)
+/.editorconfig
+
 # Git (https://git-scm.com/)
 /.git/
 /.gitignore
 /.gitattributes
+
+# Pronamic build ignore
+/.pronamic-build-ignore
 
 # .DS_Store (https://en.wikipedia.org/wiki/.DS_Store)
 .DS_Store
