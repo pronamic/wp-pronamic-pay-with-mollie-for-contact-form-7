@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "22995fc972c3a1f64885ccbe24d3dc5c",
+    "content-hash": "0a202868bc3c32c4c663c3784d149251",
     "packages": [
         {
             "name": "automattic/jetpack-autoloader",
@@ -666,16 +666,16 @@
         },
         {
             "name": "wp-pay-extensions/contact-form-7",
-            "version": "v3.2.2",
+            "version": "v3.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pronamic/wp-pronamic-pay-contact-form-7.git",
-                "reference": "d4a9ed8f6a8e05a5fb6530143cf6ce1652a44555"
+                "reference": "3531693ff559f5ad1a6b76ee3db3b39455fb9f74"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pronamic/wp-pronamic-pay-contact-form-7/zipball/d4a9ed8f6a8e05a5fb6530143cf6ce1652a44555",
-                "reference": "d4a9ed8f6a8e05a5fb6530143cf6ce1652a44555",
+                "url": "https://api.github.com/repos/pronamic/wp-pronamic-pay-contact-form-7/zipball/3531693ff559f5ad1a6b76ee3db3b39455fb9f74",
+                "reference": "3531693ff559f5ad1a6b76ee3db3b39455fb9f74",
                 "shasum": ""
             },
             "require": {
@@ -735,7 +735,7 @@
                 "issues": "https://github.com/wp-pay-extensions/contact-form-7/issues",
                 "source": "https://github.com/wp-pay-extensions/contact-form-7/"
             },
-            "time": "2023-02-23T13:30:18+00:00"
+            "time": "2023-03-03T08:20:29+00:00"
         },
         {
             "name": "wp-pay-gateways/mollie",

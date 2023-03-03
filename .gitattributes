@@ -5,3 +5,4 @@
 /.wordpress-org/         export-ignore
 /.wp-env.json            export-ignore
 /phpcs.xml.dist          export-ignore
+/tools/                  export-ignore
