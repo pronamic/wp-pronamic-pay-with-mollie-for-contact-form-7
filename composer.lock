@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0a202868bc3c32c4c663c3784d149251",
+    "content-hash": "22995fc972c3a1f64885ccbe24d3dc5c",
     "packages": [
         {
             "name": "automattic/jetpack-autoloader",
@@ -325,16 +325,16 @@
         },
         {
             "name": "pronamic/wp-html",
-            "version": "v2.1.1",
+            "version": "v2.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pronamic/wp-html.git",
-                "reference": "87d8165b46eaaba65471828b797945508be77102"
+                "reference": "4ae021d08a76e74cf60516137472b76a2fad757a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pronamic/wp-html/zipball/87d8165b46eaaba65471828b797945508be77102",
-                "reference": "87d8165b46eaaba65471828b797945508be77102",
+                "url": "https://api.github.com/repos/pronamic/wp-html/zipball/4ae021d08a76e74cf60516137472b76a2fad757a",
+                "reference": "4ae021d08a76e74cf60516137472b76a2fad757a",
                 "shasum": ""
             },
             "require": {
@@ -361,9 +361,9 @@
             "description": "WordPress HTML library.",
             "support": {
                 "issues": "https://github.com/pronamic/wp-html/issues",
-                "source": "https://github.com/pronamic/wp-html/tree/v2.1.1"
+                "source": "https://github.com/pronamic/wp-html/tree/v2.1.2"
             },
-            "time": "2023-01-31T11:10:28+00:00"
+            "time": "2023-03-03T11:17:06+00:00"
         },
         {
             "name": "pronamic/wp-http",
@@ -2161,16 +2161,16 @@
         },
         {
             "name": "pronamic/wp-deployer",
-            "version": "v1.2.13",
+            "version": "v1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pronamic/wp-deployer.git",
-                "reference": "10ed16a60f9b5c2b456a818538ac12f79d125e5f"
+                "reference": "414a22e9ff115dd49cd5921bc0051275aa85148d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pronamic/wp-deployer/zipball/10ed16a60f9b5c2b456a818538ac12f79d125e5f",
-                "reference": "10ed16a60f9b5c2b456a818538ac12f79d125e5f",
+                "url": "https://api.github.com/repos/pronamic/wp-deployer/zipball/414a22e9ff115dd49cd5921bc0051275aa85148d",
+                "reference": "414a22e9ff115dd49cd5921bc0051275aa85148d",
                 "shasum": ""
             },
             "require": {
@@ -2202,9 +2202,9 @@
             "description": "WordPress deployer.",
             "support": {
                 "issues": "https://github.com/pronamic/wp-deployer/issues",
-                "source": "https://github.com/pronamic/wp-deployer/tree/v1.2.13"
+                "source": "https://github.com/pronamic/wp-deployer/tree/v1.3.0"
             },
-            "time": "2023-02-07T12:52:38+00:00"
+            "time": "2023-03-03T14:25:10+00:00"
         },
         {
             "name": "psr/container",

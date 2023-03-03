@@ -14,6 +14,20 @@ $gcloud_bucket_name = "gs://downloads.pronamic.eu/plugins/$slug";
 
 echo `gcloud storage cp build/$zip_filename_version $gcloud_bucket_name/$zip_filename_version`;
 
+echo "\n";
+
 echo `gcloud storage cp $gcloud_bucket_name/$zip_filename_version $gcloud_bucket_name/$zip_filename`;
 
+echo "\n";
+
 echo `curl --netrc --data version=$version --request PATCH https://www.pronamic.eu/wp-json/pronamic-wp-extensions/v1/plugins/$slug`;
+
+echo "\n";
+
+echo `vendor/bin/wp-deployer changelog $version > build/CHANGELOG.$version.md`;
+
+echo "\n";
+
+echo `gh release create v$version --title $version --notes-file build/CHANGELOG.$version.md build/$zip_filename_version`;
+
+echo "\n";
