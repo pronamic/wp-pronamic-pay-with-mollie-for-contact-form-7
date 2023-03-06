@@ -17,9 +17,14 @@
 		"sort-packages": true
 	},
 	"extra": {
-		"installer-disable": [
-			"wordpress"
-		]
+		"installer-paths": {
+			"packages/{$name}": [
+				"woocommerce/action-scheduler",
+				"vendor:wp-pay",
+				"vendor:wp-pay-extensions",
+				"vendor:wp-pay-gateways"
+			]
+		}
 	},
 	"require": {
 		"php": ">=7.4",
