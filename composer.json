@@ -19,10 +19,10 @@
 	"extra": {
 		"installer-paths": {
 			"packages/{$name}": [
-				"woocommerce/action-scheduler",
 				"vendor:wp-pay",
 				"vendor:wp-pay-extensions",
-				"vendor:wp-pay-gateways"
+				"vendor:wp-pay-gateways",
+				"woocommerce/action-scheduler"
 			]
 		}
 	},
