@@ -18,7 +18,8 @@
 	},
 	"extra": {
 		"installer-paths": {
-			"packages/{$name}": [
+			"packages/{$vendor}/{$name}": [
+				"vendor:pronamic",
 				"vendor:wp-pay",
 				"vendor:wp-pay-extensions",
 				"vendor:wp-pay-gateways",
