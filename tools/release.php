@@ -1,6 +1,6 @@
 <?php
 
-$package = json_decode( file_get_contents( 'package.json' ) );
+require 'bootstrap.php';
 
 $slug = $package->config->slug;
 
@@ -12,22 +12,12 @@ $zip_filename = "$slug.zip";
 
 $gcloud_bucket_name = "gs://downloads.pronamic.eu/plugins/$slug";
 
-echo `gcloud storage cp build/$zip_filename_version $gcloud_bucket_name/$zip_filename_version`;
+run( "gcloud storage cp build/$zip_filename_version $gcloud_bucket_name/$zip_filename_version" );
 
-echo "\n";
+run( "gcloud storage cp $gcloud_bucket_name/$zip_filename_version $gcloud_bucket_name/$zip_filename" );
 
-echo `gcloud storage cp $gcloud_bucket_name/$zip_filename_version $gcloud_bucket_name/$zip_filename`;
+run( "curl --netrc --data version=$version --request PATCH https://www.pronamic.eu/wp-json/pronamic-wp-extensions/v1/plugins/$slug" );
 
-echo "\n";
+run( "vendor/bin/wp-deployer changelog $version > build/CHANGELOG.$version.md" );
 
-echo `curl --netrc --data version=$version --request PATCH https://www.pronamic.eu/wp-json/pronamic-wp-extensions/v1/plugins/$slug`;
-
-echo "\n";
-
-echo `vendor/bin/wp-deployer changelog $version > build/CHANGELOG.$version.md`;
-
-echo "\n";
-
-echo `gh release create v$version --title $version --notes-file build/CHANGELOG.$version.md build/$zip_filename_version`;
-
-echo "\n";
+run( "gh release create v$version --title $version --notes-file build/CHANGELOG.$version.md build/$zip_filename_version" );

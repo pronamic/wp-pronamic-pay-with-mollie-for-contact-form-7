@@ -1,29 +1,19 @@
 <?php
 
-$package = json_decode( file_get_contents( 'package.json' ) );
+require 'bootstrap.php';
 
 $slug = $package->config->slug;
 
-echo `rm -rf ./build/`;
+run( 'rm -rf ./build/' );
 
-echo "\n";
+run( 'mkdir ./build/' );
 
-echo `mkdir ./build/`;
+run( 'mkdir ./build/plugin/' );
 
-echo "\n";
+run( 'rsync --recursive --delete --exclude-from=.pronamic-build-ignore ./ ./build/plugin/' );
 
-echo `mkdir ./build/plugin/`;
+run( 'composer install --no-dev --prefer-dist --optimize-autoloader --working-dir=./build/plugin/ --ansi' );
 
-echo "\n";
+run( 'vendor/bin/phpcbf -s -v --sniffs=WordPress.Utils.I18nTextDomainFixer ./build/plugin/' );
 
-echo `rsync --recursive --delete --exclude-from=.pronamic-build-ignore ./ ./build/plugin/`;
-
-echo "\n";
-
-echo `composer install --no-dev --prefer-dist --optimize-autoloader --working-dir=./build/plugin/ --ansi`;
-
-echo "\n";
-
-echo `vendor/bin/wp dist-archive ./build/plugin/ --plugin-dirname=$slug`;
-
-echo "\n";
+run( "vendor/bin/wp dist-archive ./build/plugin/ --plugin-dirname=$slug" );

@@ -34,6 +34,13 @@ require_once __DIR__ . '/vendor/autoload_packages.php';
 /**
  * Bootstrap.
  */
+add_action(
+    'plugins_loaded',
+    function() {
+        load_plugin_textdomain( 'pronamic-pay-with-mollie-for-contact-form-7', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' ); 
+    }
+);
+
 \Pronamic\WordPress\Pay\Plugin::instance(
 	[
 		'file'                 => __FILE__,
