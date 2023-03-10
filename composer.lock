@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "12dcf20e0dc8dbb626a484dfb7818a5b",
+    "content-hash": "3d4b6028bb003037d78166d62ec3ef66",
     "packages": [
         {
             "name": "automattic/jetpack-autoloader",
@@ -666,16 +666,16 @@
         },
         {
             "name": "wp-pay-extensions/contact-form-7",
-            "version": "dev-main",
+            "version": "v3.2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pronamic/wp-pronamic-pay-contact-form-7.git",
-                "reference": "7a54710bc223b0db69a80dfda050e379d0ef2e5b"
+                "reference": "51508bd602ae3f69e70b0eba62ee0c113b12b0f8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pronamic/wp-pronamic-pay-contact-form-7/zipball/7a54710bc223b0db69a80dfda050e379d0ef2e5b",
-                "reference": "7a54710bc223b0db69a80dfda050e379d0ef2e5b",
+                "url": "https://api.github.com/repos/pronamic/wp-pronamic-pay-contact-form-7/zipball/51508bd602ae3f69e70b0eba62ee0c113b12b0f8",
+                "reference": "51508bd602ae3f69e70b0eba62ee0c113b12b0f8",
                 "shasum": ""
             },
             "require": {
@@ -694,7 +694,6 @@
                 "wpackagist-plugin/contact-form-7": "^5.4",
                 "yoast/phpunit-polyfills": "^1.0"
             },
-            "default-branch": true,
             "type": "wordpress-plugin",
             "autoload": {
                 "psr-4": {
@@ -736,20 +735,20 @@
                 "issues": "https://github.com/wp-pay-extensions/contact-form-7/issues",
                 "source": "https://github.com/wp-pay-extensions/contact-form-7/"
             },
-            "time": "2023-03-06T15:22:26+00:00"
+            "time": "2023-03-10T14:57:48+00:00"
         },
         {
             "name": "wp-pay-gateways/mollie",
-            "version": "dev-develop",
+            "version": "v4.7.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pronamic/wp-pronamic-pay-mollie.git",
-                "reference": "7517c92862b7a6c6e31a921f3871c1c9cacabdbd"
+                "reference": "bbca90b5ea702acc9df182ec73a0a3459c14a96e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pronamic/wp-pronamic-pay-mollie/zipball/7517c92862b7a6c6e31a921f3871c1c9cacabdbd",
-                "reference": "7517c92862b7a6c6e31a921f3871c1c9cacabdbd",
+                "url": "https://api.github.com/repos/pronamic/wp-pronamic-pay-mollie/zipball/bbca90b5ea702acc9df182ec73a0a3459c14a96e",
+                "reference": "bbca90b5ea702acc9df182ec73a0a3459c14a96e",
                 "shasum": ""
             },
             "require": {
@@ -813,20 +812,20 @@
                 "issues": "https://github.com/wp-pay-gateways/mollie/issues",
                 "source": "https://github.com/wp-pay-gateways/mollie"
             },
-            "time": "2023-03-06T15:21:17+00:00"
+            "time": "2023-03-10T14:26:53+00:00"
         },
         {
             "name": "wp-pay/core",
-            "version": "dev-develop",
+            "version": "v4.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pronamic/wp-pay-core.git",
-                "reference": "f5fefe9c09e55a4743b13e51de2e6c3c1254e35b"
+                "reference": "95304499915377d6874a8843263265da31d9d705"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pronamic/wp-pay-core/zipball/f5fefe9c09e55a4743b13e51de2e6c3c1254e35b",
-                "reference": "f5fefe9c09e55a4743b13e51de2e6c3c1254e35b",
+                "url": "https://api.github.com/repos/pronamic/wp-pay-core/zipball/95304499915377d6874a8843263265da31d9d705",
+                "reference": "95304499915377d6874a8843263265da31d9d705",
                 "shasum": ""
             },
             "require": {
@@ -857,7 +856,6 @@
                 "wp-phpunit/wp-phpunit": "^6.1",
                 "yoast/phpunit-polyfills": "^1.0"
             },
-            "default-branch": true,
             "type": "wordpress-plugin",
             "autoload": {
                 "files": [
@@ -900,7 +898,7 @@
                 "issues": "https://github.com/wp-pay/core/issues",
                 "source": "https://github.com/wp-pay/core"
             },
-            "time": "2023-03-06T15:21:17+00:00"
+            "time": "2023-03-10T14:32:06+00:00"
         }
     ],
     "packages-dev": [
@@ -5919,31 +5917,9 @@
             "time": "2020-05-13T23:57:56+00:00"
         }
     ],
-    "aliases": [
-        {
-            "package": "wp-pay-extensions/contact-form-7",
-            "version": "dev-main",
-            "alias": "3.2",
-            "alias_normalized": "3.2.0.0"
-        },
-        {
-            "package": "wp-pay-gateways/mollie",
-            "version": "dev-develop",
-            "alias": "4.7",
-            "alias_normalized": "4.7.0.0"
-        },
-        {
-            "package": "wp-pay/core",
-            "version": "dev-develop",
-            "alias": "4.7",
-            "alias_normalized": "4.7.0.0"
-        }
-    ],
+    "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "wp-pay-extensions/contact-form-7": 20,
-        "wp-pay-gateways/mollie": 20,
-        "wp-pay/core": 20,
         "wp-cli/wp-cli": 20,
         "wp-cli/wp-cli-bundle": 20
     },
