@@ -8,11 +8,16 @@
 
 ## Table of Contents
 
+- [Video](#video)
 - [Introduction](#introduction)
   - [Pronamic Pay](#pronamic-pay)
   - [Contact Form 7](#contact-form-7)
   - [Mollie](#mollie)
 - [Dependencies](#dependencies)
+
+## Video
+
+[![Accept payments with Mollie and Contact Form 7 for WordPress](https://img.youtube.com/vi/PKRHN6lNRLk/maxresdefault.jpg)](https://youtu.be/PKRHN6lNRLk)
 
 ## Introduction
 
