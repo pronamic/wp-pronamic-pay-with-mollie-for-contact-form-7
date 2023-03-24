@@ -52,7 +52,11 @@ add_action(
 add_filter(
 	'pronamic_pay_plugin_integrations',
 	function( $integrations ) {
-		$integrations[] = new \Pronamic\WordPress\Pay\Extensions\ContactForm7\Extension();
+		$class = \Pronamic\WordPress\Pay\Extensions\ContactForm7\Extension::class;
+
+		if ( ! array_key_exists( $class, $integrations ) ) {
+			$integrations[ $class ] = new $class();
+		}
 
 		return $integrations;
 	}
