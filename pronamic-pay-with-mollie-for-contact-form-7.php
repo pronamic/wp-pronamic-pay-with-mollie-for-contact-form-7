@@ -35,16 +35,16 @@ require_once __DIR__ . '/vendor/autoload_packages.php';
  * Bootstrap.
  */
 add_action(
-    'plugins_loaded',
-    function() {
-        load_plugin_textdomain( 'pronamic-pay-with-mollie-for-contact-form-7', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' ); 
-    }
+	'plugins_loaded',
+	function() {
+		load_plugin_textdomain( 'pronamic-pay-with-mollie-for-contact-form-7', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' ); 
+	}
 );
 
 \Pronamic\WordPress\Pay\Plugin::instance(
 	[
 		'file'                 => __FILE__,
-        'action_scheduler'     => __DIR__ . '/packages/woocommerce/action-scheduler/action-scheduler.php',
+		'action_scheduler'     => __DIR__ . '/packages/woocommerce/action-scheduler/action-scheduler.php',
 		'pronamic_service_url' => 'https://api.wp-pay.org/wp-json/pronamic-pay/v1/payments',
 	]
 );
