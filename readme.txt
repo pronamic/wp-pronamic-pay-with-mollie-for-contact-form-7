@@ -12,6 +12,7 @@ Connect Mollie to Contact Form 7 with Pronamic Pay. This free plugin is all that
 
 == Description ==
 
+Accept payments with Mollie and Contact Form 7. This free plugin is all that you need to connect your Contact Form 7 forms to Mollie.
 The installation is as easy as creating a form. Just add your form fields, choose a payment amount and add a list of the available payment methods from Mollie. You can choose which payment methods you want to embed in your form.
 
 https://youtu.be/PKRHN6lNRLk
