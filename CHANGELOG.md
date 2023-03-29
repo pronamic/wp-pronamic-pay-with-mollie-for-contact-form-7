@@ -5,6 +5,28 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.1] - 2023-03-29
+
+### Commits
+
+- Updated translations. ([c26fbe0](https://github.com/pronamic/wp-pronamic-pay-with-mollie-for-contact-form-7/commit/c26fbe0847ed22956be1539ef770b0fcaf9fe9fe))
+- Tested up to 6.2. ([466b459](https://github.com/pronamic/wp-pronamic-pay-with-mollie-for-contact-form-7/commit/466b459cb89cf7dda12f9c2b4df940b235d509db))
+- Use class as integration key. ([b873559](https://github.com/pronamic/wp-pronamic-pay-with-mollie-for-contact-form-7/commit/b8735595f5d5c663d915f5fd6e81d7c5f1104fa1))
+
+### Composer
+
+- Changed `automattic/jetpack-autoloader` from `v2.11.16` to `v2.11.17`.
+	Release notes: https://github.com/Automattic/jetpack-autoloader/releases/tag/v2.11.17
+- Changed `wp-pay-extensions/contact-form-7` from `v3.2.2` to `v3.2.4`.
+	Release notes: https://github.com/pronamic/wp-pronamic-pay-contact-form-7/releases/tag/v3.2.4
+- Changed `wp-pay-gateways/mollie` from `v4.7.4` to `v4.7.6`.
+	Release notes: https://github.com/pronamic/wp-pronamic-pay-mollie/releases/tag/v4.7.6
+- Changed `wp-pay/core` from `v4.7.3` to `v4.9.0`.
+	Release notes: https://github.com/pronamic/wp-pay-core/releases/tag/v4.9.0
+Full set of changes: [`1.1.0...1.1.1`][1.1.1]
+
+[1.1.1]: https://github.com/pronamic/wp-pronamic-pay-with-mollie-for-contact-form-7/compare/v1.1.0...v1.1.1
+
 ## [1.1.0] - 2023-02-23
 
 ### Addedd
