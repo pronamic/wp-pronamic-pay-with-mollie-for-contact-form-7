@@ -49,7 +49,7 @@
 		"make-pot": "vendor/bin/wp i18n make-pot . languages/pronamic-pay-with-mollie-for-contact-form-7.pot --slug=pronamic-pay-with-mollie-for-contact-form-7 --exclude=build",
 		"translate": [
 			"@text-domain-fix",
-			"@make-pot"	
+			"@make-pot"
 		],
 		"build": [
 			"@translate",
