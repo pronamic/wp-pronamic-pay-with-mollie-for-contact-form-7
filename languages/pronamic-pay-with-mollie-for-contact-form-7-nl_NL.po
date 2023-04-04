@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: Pronamic Pay\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/pronamic-pay-with-"
 "mollie-for-contact-form-7\n"
-"POT-Creation-Date: 2023-03-29T09:34:35+00:00\n"
-"PO-Revision-Date: 2023-03-29 11:42+0200\n"
+"POT-Creation-Date: 2023-03-29T09:43:40+00:00\n"
+"PO-Revision-Date: 2023-04-04 10:34+0200\n"
 "Last-Translator: Remco Tolsma <info@remcotolsma.nl>\n"
 "Language-Team: Pronamic <info@pronamic.nl>\n"
 "Language: nl_NL\n"
@@ -16,16 +16,14 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #. Plugin Name of the plugin
-#, fuzzy
 msgid "Pronamic Pay with Mollie for Contact Form 7"
-msgstr "Pronamic Pay koppelen aan Contact Form 7"
+msgstr "Pronamic Pay met Mollie voor Contact Form 7"
 
 #. Plugin URI of the plugin
-#, fuzzy
 msgid ""
 "https://www.pronamic.eu/plugins/pronamic-pay-with-mollie-for-contact-form-7/"
 msgstr ""
-"https://www.pronamic.eu/plugins/pronamic-pay-with-mollie-for-gravity-forms/"
+"https://www.pronamic.eu/plugins/pronamic-pay-with-mollie-for-contact-form-7/"
 
 #. Description of the plugin
 msgid "Pronamic Pay plugin with Mollie for Contact Form 7 integration."
@@ -53,9 +51,8 @@ msgstr "Filter"
 
 #. translators: %s: search query
 #: packages/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_ListTable.php:650
-#, fuzzy
 msgid "Search results for \"%s\""
-msgstr "Zoekresultaten voor: %s"
+msgstr ""
 
 #: packages/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_ListTable.php:755
 msgid "Search"
@@ -68,37 +65,31 @@ msgid ""
 msgstr ""
 
 #: packages/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:72
-#, fuzzy
 msgid "action created"
-msgstr "Actie URL"
+msgstr ""
 
 #: packages/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:76
 #: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:142
-#, fuzzy
 msgid "action canceled"
-msgstr "Geannuleerd"
+msgstr ""
 
 #. translators: %s: context
 #: packages/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:82
-#, fuzzy
 msgid "action started via %s"
-msgstr "Incasso (machtiging via %s)"
+msgstr ""
 
 #: packages/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:84
-#, fuzzy
 msgid "action started"
-msgstr "Call to action"
+msgstr ""
 
 #. translators: %s: context
 #: packages/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:92
-#, fuzzy
 msgid "action complete via %s"
-msgstr "Incasso (machtiging via %s)"
+msgstr ""
 
 #: packages/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:94
-#, fuzzy
 msgid "action complete"
-msgstr "Actie URL"
+msgstr ""
 
 #. translators: 1: context 2: exception message
 #: packages/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:102
@@ -107,9 +98,8 @@ msgstr ""
 
 #. translators: %s: exception message
 #: packages/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:105
-#, fuzzy
 msgid "action failed: %s"
-msgstr "%s mislukt"
+msgstr ""
 
 #. translators: %s: amount of time
 #: packages/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:112
@@ -124,20 +114,17 @@ msgid "unexpected shutdown: PHP Fatal error %1$s in %2$s on line %3$s"
 msgstr ""
 
 #: packages/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:123
-#, fuzzy
 msgid "action reset"
-msgstr "[%s] Wachtwoord resetten"
+msgstr ""
 
 #. translators: %s: context
 #: packages/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:129
-#, fuzzy
 msgid "action ignored via %s"
-msgstr "Incasso (machtiging via %s)"
+msgstr ""
 
 #: packages/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:131
-#, fuzzy
 msgid "action ignored"
-msgstr "Genegeerd"
+msgstr ""
 
 #. translators: %s: exception message
 #: packages/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:146
@@ -145,9 +132,8 @@ msgid "There was a failure fetching this action: %s"
 msgstr ""
 
 #: packages/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:148
-#, fuzzy
 msgid "There was a failure fetching this action"
-msgstr "Storing"
+msgstr ""
 
 #. translators: %s: exception message
 #: packages/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:156
@@ -162,9 +148,8 @@ msgid ""
 msgstr ""
 
 #: packages/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Store.php:405
-#, fuzzy
 msgid "Complete"
-msgstr "Voltooi registratie"
+msgstr ""
 
 #: packages/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Store.php:406
 #: packages/wp-pay-gateways/mollie/views/page-customer.php:262
@@ -172,9 +157,8 @@ msgid "Pending"
 msgstr "In afwachting"
 
 #: packages/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Store.php:407
-#, fuzzy
 msgid "In-progress"
-msgstr "Geldinzameling-voortgang (balk)"
+msgstr ""
 
 #: packages/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Store.php:408
 msgid "Failed"
@@ -201,9 +185,8 @@ msgstr ""
 #: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:89
 #: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:19
 #: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:30
-#, fuzzy
 msgid "Scheduled Actions"
-msgstr "Niet ingepland"
+msgstr ""
 
 #. translators: 1) is the number of affected actions, 2) is a link to an admin screen.
 #: packages/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:195
@@ -221,14 +204,12 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: packages/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:225
-#, fuzzy
 msgid "About"
-msgstr "Review over %s"
+msgstr ""
 
 #: packages/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:227
-#, fuzzy
 msgid "About Action Scheduler %s"
-msgstr "Review over %s"
+msgstr ""
 
 #: packages/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:229
 msgid ""
@@ -243,9 +224,8 @@ msgid "Columns"
 msgstr ""
 
 #: packages/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:239
-#, fuzzy
 msgid "Scheduled Action Columns"
-msgstr "Actie URL"
+msgstr ""
 
 #: packages/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:241
 #: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:96
@@ -287,14 +267,12 @@ msgstr ""
 
 #: packages/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:244
 #: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:99
-#, fuzzy
 msgid "Group"
-msgstr "Groep ID"
+msgstr ""
 
 #: packages/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:244
-#, fuzzy
 msgid "Optional action group."
-msgstr "Automatisch gegenereerde titel"
+msgstr ""
 
 #: packages/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:245
 #: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:100
@@ -306,9 +284,8 @@ msgid "Recurrence"
 msgstr "Herhaling"
 
 #: packages/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:245
-#, fuzzy
 msgid "The action's schedule frequency."
-msgstr "Frequentie"
+msgstr ""
 
 #: packages/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:246
 msgid "Scheduled"
@@ -320,14 +297,12 @@ msgstr ""
 
 #: packages/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:247
 #: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:102
-#, fuzzy
 msgid "Log"
-msgstr "inloggen"
+msgstr ""
 
 #: packages/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:247
-#, fuzzy
 msgid "Activity log for the action."
-msgstr "inloggen"
+msgstr ""
 
 #. translators: %d: amount of time
 #: packages/woocommerce/action-scheduler/classes/ActionScheduler_DataController.php:133
@@ -357,19 +332,16 @@ msgid "Delete"
 msgstr "Verwijder"
 
 #: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:101
-#, fuzzy
 msgid "Scheduled Date"
-msgstr "Niet ingepland"
+msgstr ""
 
 #: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:122
-#, fuzzy
 msgid "Claim ID"
-msgstr "ID"
+msgstr ""
 
 #: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:129
-#, fuzzy
 msgid "Run"
-msgstr "Voer de updater uit"
+msgstr ""
 
 #: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:130
 msgid "Process the action now as if it were run as part of a queue"
@@ -448,9 +420,8 @@ msgstr[0] "%s seconde"
 msgstr[1] "%s seconden"
 
 #: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:224
-#, fuzzy
 msgid "Now!"
-msgstr "Betaal nu"
+msgstr ""
 
 #. translators: %s: time interval
 #. translators: %s: formatted date interval periods
@@ -499,9 +470,8 @@ msgstr ""
 
 #. translators: %s: action HTML
 #: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:425
-#, fuzzy
 msgid "Successfully canceled action: %s"
-msgstr "Abonnement geannuleerd door %s."
+msgstr ""
 
 #. translators: %s: action HTML
 #: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:429
@@ -519,68 +489,58 @@ msgstr ""
 
 #. translators: %s: date interval
 #: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:485
-#, fuzzy
 msgid " (%s ago)"
-msgstr "%s geleden"
+msgstr ""
 
 #. translators: %s: date interval
 #: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:488
-#, fuzzy
 msgid " (%s)"
-msgstr "EasyCruit → %s (ingebouwd)"
+msgstr ""
 
 #: packages/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:648
 msgid "Search hook, args and claim ID"
 msgstr ""
 
 #: packages/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php:215
-#, fuzzy
 msgid "Every minute"
-msgstr "minuut"
+msgstr ""
 
 #: packages/woocommerce/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:111
-#, fuzzy
 msgid "Action Scheduler"
-msgstr "Voorgestelde actie"
+msgstr ""
 
 #: packages/woocommerce/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:111
 msgid "This section shows details of Action Scheduler."
 msgstr ""
 
 #: packages/woocommerce/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:114
-#, fuzzy
 msgid "Version:"
-msgstr "Versie"
+msgstr ""
 
 #: packages/woocommerce/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:118
-#, fuzzy
 msgid "Data store:"
-msgstr "Winkel ID"
+msgstr ""
 
 #: packages/woocommerce/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:122
-#, fuzzy
 msgid "Action Status"
-msgstr "Actie URL"
+msgstr ""
 
 #: packages/woocommerce/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:124
 msgid "Count"
 msgstr "Aantal"
 
 #: packages/woocommerce/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:125
-#, fuzzy
 msgid "Oldest Scheduled Date"
-msgstr "Niet ingepland"
+msgstr ""
 
 #: packages/woocommerce/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:126
-#, fuzzy
 msgid "Newest Scheduled Date"
-msgstr "Wetgeving nieuwste"
+msgstr ""
 
 #. translators: %s: date interval
 #: packages/woocommerce/action-scheduler/classes/ActionScheduler_WPCommentCleaner.php:103
-#, fuzzy
 msgid "This data will be deleted in %s."
-msgstr "Verwijderd"
+msgstr ""
 
 #. translators: 1: next cleanup message 2: github issue URL
 #: packages/woocommerce/action-scheduler/classes/ActionScheduler_WPCommentCleaner.php:108
@@ -591,18 +551,16 @@ msgid ""
 msgstr ""
 
 #: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:110
-#, fuzzy
 msgid "Database error."
-msgstr "Fout"
+msgstr ""
 
 #. translators: %s: error message
 #. translators: %s: action error message
 #: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:118
 #: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:49
 #: packages/woocommerce/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
-#, fuzzy
 msgid "Error saving action: %s"
-msgstr "Fout bij ophalen betalingsstatus: %s"
+msgstr ""
 
 #: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:375
 msgid "Invalid value for select or count parameter. Cannot query actions."
@@ -636,17 +594,15 @@ msgstr ""
 #: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:534
 #: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:564
 #: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:974
-#, fuzzy
 msgid "Unidentified action %s"
-msgstr "Standaard: %s"
+msgstr ""
 
 #. translators: %s: group name
 #. translators: %s is the group name
 #: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:844
 #: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:717
-#, fuzzy
 msgid "The group \"%s\" does not exist."
-msgstr "%s transactieregelgroep"
+msgstr ""
 
 #: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:864
 #: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:696
@@ -659,14 +615,12 @@ msgid "Invalid action ID. No status found."
 msgstr ""
 
 #: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:1076
-#, fuzzy
 msgid "Unknown status found for action."
-msgstr "De status van de betaling is onbekend."
+msgstr ""
 
 #: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:101
-#, fuzzy
 msgid "Unable to save action."
-msgstr "Opslaan"
+msgstr ""
 
 #: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:318
 msgid "Invalid schedule. Cannot save action."
@@ -709,42 +663,37 @@ msgstr[0] "Mislukt <span class=\"count\">(%s)</span>"
 msgstr[1] "Mislukt <span class=\"count\">(%s)</span>"
 
 #: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostStatusRegistrar.php:51
-#, fuzzy
 msgctxt "post"
 msgid "In-Progress"
-msgstr "Geldinzameling-voortgang (balk)"
+msgstr ""
 
 #. translators: %s: count
 #: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostStatusRegistrar.php:53
-#, fuzzy
 msgid "In-Progress <span class=\"count\">(%s)</span>"
 msgid_plural "In-Progress <span class=\"count\">(%s)</span>"
-msgstr[0] "Verlopen <span class=\"count\">(%s)</span>"
-msgstr[1] "Verlopen <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
 
 #: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:20
 msgid "Scheduled actions are hooks triggered on a cetain date and time."
 msgstr ""
 
 #: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:31
-#, fuzzy
 msgid "Scheduled Action"
-msgstr "Niet ingepland"
+msgstr ""
 
 #: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:32
-#, fuzzy
 msgctxt "Admin menu name"
 msgid "Scheduled Actions"
-msgstr "Niet ingepland"
+msgstr ""
 
 #: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:33
 msgid "Add"
 msgstr "Toevoegen"
 
 #: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:34
-#, fuzzy
 msgid "Add New Scheduled Action"
-msgstr "Nieuwe vacature toevoegen"
+msgstr ""
 
 #: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:35
 #: packages/wp-pay/core/views/meta-box-payment-update.php:56
@@ -754,40 +703,33 @@ msgid "Edit"
 msgstr "Bewerken"
 
 #: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:36
-#, fuzzy
 msgid "Edit Scheduled Action"
-msgstr "Wijzig vacature"
+msgstr ""
 
 #: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:37
-#, fuzzy
 msgid "New Scheduled Action"
-msgstr "Nieuwe toevoegen"
+msgstr ""
 
 #: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:38
 #: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:39
-#, fuzzy
 msgid "View Action"
-msgstr "Actie URL"
+msgstr ""
 
 #: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:40
-#, fuzzy
 msgid "Search Scheduled Actions"
-msgstr "Zoek vacatures"
+msgstr ""
 
 #: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:41
-#, fuzzy
 msgid "No actions found"
-msgstr "Acties"
+msgstr ""
 
 #: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:42
-#, fuzzy
 msgid "No actions found in trash"
-msgstr "Geen vacatures in de prullenbak gevonden."
+msgstr ""
 
 #: packages/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_TaxonomyRegistrar.php:14
-#, fuzzy
 msgid "Action Group"
-msgstr "Groep ID"
+msgstr ""
 
 #: packages/woocommerce/action-scheduler/classes/migration/ActionMigrator.php:95
 msgid "Unable to remove source migrated action %s"
@@ -817,11 +759,10 @@ msgstr ""
 
 #. translators: %d: amount of actions
 #: packages/woocommerce/action-scheduler/classes/migration/Runner.php:82
-#, fuzzy
 msgid "Migrating %d action"
 msgid_plural "Migrating %d actions"
-msgstr[0] "Voorgestelde actie"
-msgstr[1] "Acties"
+msgstr[0] ""
+msgstr[1] ""
 
 #. translators: 1: source action ID 2: source store class 3: destination action ID 4: destination store class
 #: packages/woocommerce/action-scheduler/classes/migration/Runner.php:109
@@ -845,11 +786,10 @@ msgstr ""
 
 #. translators: %d: amount of actions
 #: packages/woocommerce/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:93
-#, fuzzy
 msgid "Running %d action"
 msgid_plural "Running %d actions"
-msgstr[0] "Voorgestelde actie"
-msgstr[1] "Acties"
+msgstr[0] ""
+msgstr[1] ""
 
 #: packages/woocommerce/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:113
 msgid "The claim has been lost. Aborting current batch."
@@ -857,9 +797,8 @@ msgstr ""
 
 #. translators: %s refers to the action ID
 #: packages/woocommerce/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:138
-#, fuzzy
 msgid "Started processing action %s"
-msgstr "Er is een `%s`-fout opgetreden tijdens het verwerken van de betaling."
+msgstr ""
 
 #. translators: 1: action ID 2: hook name
 #: packages/woocommerce/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:155
@@ -868,31 +807,27 @@ msgstr ""
 
 #. translators: 1: action ID 2: exception message
 #: packages/woocommerce/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:170
-#, fuzzy
 msgid "Error processing action %1$s: %2$s"
-msgstr "%1$s (fout %2$s)"
+msgstr ""
 
 #. translators: %s refers to the schema name
 #: packages/woocommerce/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:30
-#, fuzzy
 msgid "Registered schema for %s"
-msgstr "Geregistreerd"
+msgstr ""
 
 #. translators: %d refers to how many scheduled taks were found to run
 #: packages/woocommerce/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:130
-#, fuzzy
 msgid "Found %d scheduled task"
 msgid_plural "Found %d scheduled tasks"
-msgstr[0] "Geen taaksjablonen gevonden."
-msgstr[1] "Geen herhaaltaken gevonden."
+msgstr[0] ""
+msgstr[1] ""
 
 #. translators: %d refers to the total number of batches executed
 #: packages/woocommerce/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:147
-#, fuzzy
 msgid "%d batch executed."
 msgid_plural "%d batches executed."
-msgstr[0] "Configuratie %d"
-msgstr[1] "Configuratie %d"
+msgstr[0] ""
+msgstr[1] ""
 
 #. translators: %s refers to the exception error message
 #: packages/woocommerce/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:166
