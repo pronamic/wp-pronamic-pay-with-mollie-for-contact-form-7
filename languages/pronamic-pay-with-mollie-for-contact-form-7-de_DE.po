@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/pronamic-pay-with-"
 "mollie-for-contact-form-7\n"
 "POT-Creation-Date: 2023-03-29T09:43:40+00:00\n"
-"PO-Revision-Date: 2023-04-04 11:43+0200\n"
+"PO-Revision-Date: 2023-04-04 13:27+0200\n"
 "Last-Translator: Reüel van der Steege <reuel@pronamic.nl>\n"
 "Language-Team: Pronamic <info@pronamic.nl>\n"
 "Language: de_DE\n"
@@ -1831,10 +1831,10 @@ msgid ""
 msgid_plural ""
 "%s payments are not updated because they already have a final payment status."
 msgstr[0] ""
-"% Zahlung wird nicht aktualisiert, weil sie bereits einen endgültigen "
+"%s Zahlung wird nicht aktualisiert, weil sie bereits einen endgültigen "
 "Zahlungsstatus hat."
 msgstr[1] ""
-"% Zahlungen wird nicht aktualisiert, weil sie bereits einen endgültigen "
+"%s Zahlungen wird nicht aktualisiert, weil sie bereits einen endgültigen "
 "Zahlungsstatus hat."
 
 #. translators: %s: gateways lists
@@ -3149,7 +3149,7 @@ msgstr "Zahlung mit Status \"%1$s\" erstellt."
 #. translators: 1: old status, 2: new status
 #: packages/wp-pay/core/src/Payments/PaymentsModule.php:205
 msgid "Payment status changed from \"%1$s\" to \"%2$s\"."
-msgstr "Bezahlstatus wurde von \"%s\" zu \"%s\" geändert."
+msgstr "Bezahlstatus wurde von \"%1$s\" zu \"%2$s\" geändert."
 
 #. translators: %s: payment ID
 #: packages/wp-pay/core/src/Payments/PaymentsModule.php:271
@@ -3816,7 +3816,7 @@ msgstr "Ingenico Alias"
 
 #: packages/wp-pay/core/views/meta-box-payment-info.php:809
 msgid "Version"
-msgstr "Version: %s"
+msgstr "Version"
 
 #: packages/wp-pay/core/views/meta-box-payment-info.php:896
 msgid "Pay Redirect URL"
