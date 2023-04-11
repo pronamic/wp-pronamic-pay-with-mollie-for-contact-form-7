@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2023-04-04T10:31:24+00:00\n"
+"POT-Creation-Date: 2023-04-11T19:33:32+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.8.0-alpha\n"
 "X-Domain: pronamic-pay-with-mollie-for-contact-form-7\n"
@@ -721,7 +721,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. translators: 1: source action ID 2: source store class 3: destination action ID 4: destination store class
-#: packages/woocommerce/action-scheduler/classes/migration/Runner.php:107
+#: packages/woocommerce/action-scheduler/classes/migration/Runner.php:109
 msgid "Migrated action with ID %1$d in %2$s to ID %3$d in %4$s"
 msgstr ""
 
@@ -3860,6 +3860,7 @@ msgid "Site Health"
 msgstr ""
 
 #: packages/wp-pay/core/views/page-dashboard.php:415
+#: packages/wp-pay/core/views/page-tools.php:12
 msgid "System Status"
 msgstr ""
 
@@ -3878,6 +3879,18 @@ msgstr ""
 
 #: packages/wp-pay/core/views/page-settings.php:26
 msgid "The default payment status pages could not be created."
+msgstr ""
+
+#: packages/wp-pay/core/views/page-tools.php:13
+msgid "Payment Gateways"
+msgstr ""
+
+#: packages/wp-pay/core/views/page-tools.php:14
+msgid "Extensions"
+msgstr ""
+
+#: packages/wp-pay/core/views/page-tools.php:24
+msgid "Secondary menu"
 msgstr ""
 
 #: packages/wp-pay/core/views/pointer-dashboard.php:15
