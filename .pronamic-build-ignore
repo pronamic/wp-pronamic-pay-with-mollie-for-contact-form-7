@@ -1,39 +1,8 @@
-# EditorConfig (https://editorconfig.org/)
-/.editorconfig
-
-# Git (https://git-scm.com/)
-/.git/
-/.gitignore
-/.gitattributes
-
 # Pronamic build ignore
-/.pronamic-build-ignore
+# https://github.com/pronamic/pronamic-cli/blob/main/exclude.txt
 
-# .DS_Store (https://en.wikipedia.org/wiki/.DS_Store)
-.DS_Store
-
-# Composer (https://getcomposer.org/)
-/vendor/
-
-# Node.js (https://nodejs.org/)
-/node_modules/
-
-# PHP_CodeSniffer (https://github.com/squizlabs/PHP_CodeSniffer)
-/phpcs.xml.dist
-/phpcs.xml
-
-# WordPress.org
-/.wordpress-org
-
-# @wordpress/env (https://developer.wordpress.org/block-editor/reference-guides/packages/packages-env/)
-/.wp-env.json
-
-# WP-CLI (https://make.wordpress.org/cli/handbook/references/config/)
-/wp-cli.yml
-
-# WordPress distribution archive (https://developer.wordpress.org/cli/commands/dist-archive/)
-/.distignore
-
-# Project
+# Build
 /build/
-/tools/
+
+# Packages
+/packages/
