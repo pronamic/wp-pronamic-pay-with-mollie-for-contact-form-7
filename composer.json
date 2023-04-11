@@ -14,7 +14,8 @@
 			"php": "7.4"
 		},
 		"platform-check": false,
-		"sort-packages": true
+		"sort-packages": true,
+		"wp-slug": "pronamic-pay-with-mollie-for-contact-form-7"
 	},
 	"extra": {
 		"installer-paths": {
@@ -37,30 +38,22 @@
 		"wp-pay/core": "^4.9"
 	},
 	"require-dev": {
+		"pronamic/pronamic-cli": "dev-main",
 		"pronamic/wp-coding-standards": "^1.3",
-		"pronamic/wp-deployer": "^1.2",
+		"pronamic/wp-deployer": "dev-main as 1.2",
 		"roots/wordpress-no-content": "^6.1",
 		"wp-cli/wp-cli": "dev-main",
 		"wp-cli/wp-cli-bundle": "dev-main"
 	},
 	"scripts": {
 		"phpcs": "vendor/bin/phpcs -s -v --ignore=packages,build,tools",
-		"text-domain-fix": "vendor/bin/phpcbf -s -v --ignore=build,tools --sniffs=WordPress.Utils.I18nTextDomainFixer",
-		"make-pot": "vendor/bin/wp i18n make-pot . languages/pronamic-pay-with-mollie-for-contact-form-7.pot --slug=pronamic-pay-with-mollie-for-contact-form-7 --exclude=build",
+
+		"build": "vendor/bin/pronamic wp-build",
 		"translate": [
-			"@text-domain-fix",
-			"@make-pot"	
-		],
-		"build": [
-			"@translate",
-			"@php tools/build.php"
-		],
-		"version": [
-			"@build"
-		],
-		"release": [
 			"@build",
-			"@php tools/release.php"
-		]
+			"rsync --recursive --delete --verbose ./build/project/languages/ ./languages/"	
+		],
+		"version": "@build",
+		"release": "vendor/bin/pronamic release --gcloud-storage --pronamic-eu --github --wp-org"
 	}
 }
