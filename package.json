@@ -12,9 +12,6 @@
 		"url": "https://github.com/pronamic/wp-pronamic-pay-with-mollie-for-contact-form-7/issues"
 	},
 	"homepage": "https://github.com/pronamic/wp-pronamic-pay-with-mollie-for-contact-form-7#readme",
-	"config": {
-		"slug": "pronamic-pay-with-mollie-for-contact-form-7"
-	},
 	"devDependencies": {
 		"@wordpress/env": "^5.13.0"
 	}
