@@ -47,7 +47,6 @@
 	},
 	"scripts": {
 		"phpcs": "vendor/bin/phpcs -s -v --ignore=packages,build,tools",
-
 		"build": "vendor/bin/pronamic wp-build",
 		"translate": [
 			"@build",
