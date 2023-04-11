@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6fa087f42f0f9a36e082237b14cd9c7c",
+    "content-hash": "bcb0e9d613b91d67831f9b419ba172a2",
     "packages": [
         {
             "name": "automattic/jetpack-autoloader",
@@ -2104,6 +2104,54 @@
             "time": "2022-10-24T09:00:36+00:00"
         },
         {
+            "name": "pronamic/pronamic-cli",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pronamic/pronamic-cli.git",
+                "reference": "fb4cb4be1fdb24bd2820fe1f12ea9035fb83b2f6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pronamic/pronamic-cli/zipball/fb4cb4be1fdb24bd2820fe1f12ea9035fb83b2f6",
+                "reference": "fb4cb4be1fdb24bd2820fe1f12ea9035fb83b2f6",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4",
+                "symfony/console": "^5.0 || ^6.0 || ^6.1 || ^6.2",
+                "symfony/filesystem": "^5.0 || ^6.0 || ^6.1 || ^6.2",
+                "symfony/process": "^5.0 || ^6.0 || ^6.1 || ^6.2"
+            },
+            "require-dev": {
+                "pronamic/wp-coding-standards": "^1.3",
+                "yoast/phpunit-polyfills": "^1.0"
+            },
+            "default-branch": true,
+            "bin": [
+                "bin/pronamic"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Pronamic\\CLI\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Pronamic",
+                    "email": "info@pronamic.eu"
+                }
+            ],
+            "description": "Pronamic CLI is the command-line interface for Pronamic.",
+            "support": {
+                "issues": "https://github.com/pronamic/pronamic-cli/issues",
+                "source": "https://github.com/pronamic/pronamic-cli/tree/main"
+            },
+            "time": "2023-04-11T19:27:08+00:00"
+        },
+        {
             "name": "pronamic/wp-coding-standards",
             "version": "v1.3.1",
             "source": {
@@ -2161,16 +2209,16 @@
         },
         {
             "name": "pronamic/wp-deployer",
-            "version": "v1.3.0",
+            "version": "dev-main",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pronamic/wp-deployer.git",
-                "reference": "414a22e9ff115dd49cd5921bc0051275aa85148d"
+                "reference": "44e81b9d0a049e520ffa49295f33f61185e1dce7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pronamic/wp-deployer/zipball/414a22e9ff115dd49cd5921bc0051275aa85148d",
-                "reference": "414a22e9ff115dd49cd5921bc0051275aa85148d",
+                "url": "https://api.github.com/repos/pronamic/wp-deployer/zipball/44e81b9d0a049e520ffa49295f33f61185e1dce7",
+                "reference": "44e81b9d0a049e520ffa49295f33f61185e1dce7",
                 "shasum": ""
             },
             "require": {
@@ -2183,6 +2231,7 @@
                 "pronamic/wp-coding-standards": "^1.3",
                 "yoast/phpunit-polyfills": "^1.0"
             },
+            "default-branch": true,
             "bin": [
                 "bin/wp-deployer"
             ],
@@ -2202,9 +2251,9 @@
             "description": "WordPress deployer.",
             "support": {
                 "issues": "https://github.com/pronamic/wp-deployer/issues",
-                "source": "https://github.com/pronamic/wp-deployer/tree/v1.3.0"
+                "source": "https://github.com/pronamic/wp-deployer/tree/main"
             },
-            "time": "2023-03-03T14:25:10+00:00"
+            "time": "2023-04-11T11:46:47+00:00"
         },
         {
             "name": "psr/container",
@@ -3960,16 +4009,16 @@
         },
         {
             "name": "wp-cli/core-command",
-            "version": "v2.1.9",
+            "version": "v2.1.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-cli/core-command.git",
-                "reference": "33b3ba0c03efa9f280bab59107532272ac2a4235"
+                "reference": "181f41645a8ca869d886a0ce84fbde2008bdab9f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-cli/core-command/zipball/33b3ba0c03efa9f280bab59107532272ac2a4235",
-                "reference": "33b3ba0c03efa9f280bab59107532272ac2a4235",
+                "url": "https://api.github.com/repos/wp-cli/core-command/zipball/181f41645a8ca869d886a0ce84fbde2008bdab9f",
+                "reference": "181f41645a8ca869d886a0ce84fbde2008bdab9f",
                 "shasum": ""
             },
             "require": {
@@ -4025,9 +4074,9 @@
             "homepage": "https://github.com/wp-cli/core-command",
             "support": {
                 "issues": "https://github.com/wp-cli/core-command/issues",
-                "source": "https://github.com/wp-cli/core-command/tree/v2.1.9"
+                "source": "https://github.com/wp-cli/core-command/tree/v2.1.10"
             },
-            "time": "2023-02-17T16:33:19+00:00"
+            "time": "2023-04-10T13:44:51+00:00"
         },
         {
             "name": "wp-cli/cron-command",
@@ -4573,16 +4622,16 @@
         },
         {
             "name": "wp-cli/extension-command",
-            "version": "v2.1.12",
+            "version": "v2.1.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-cli/extension-command.git",
-                "reference": "31ebccb1dfb9d7fdb60d495fd724385f75caa140"
+                "reference": "e92390ce3a0d95f534ab6c88f9a77bfd4615de47"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-cli/extension-command/zipball/31ebccb1dfb9d7fdb60d495fd724385f75caa140",
-                "reference": "31ebccb1dfb9d7fdb60d495fd724385f75caa140",
+                "url": "https://api.github.com/repos/wp-cli/extension-command/zipball/e92390ce3a0d95f534ab6c88f9a77bfd4615de47",
+                "reference": "e92390ce3a0d95f534ab6c88f9a77bfd4615de47",
                 "shasum": ""
             },
             "require": {
@@ -4665,9 +4714,9 @@
             "homepage": "https://github.com/wp-cli/extension-command",
             "support": {
                 "issues": "https://github.com/wp-cli/extension-command/issues",
-                "source": "https://github.com/wp-cli/extension-command/tree/v2.1.12"
+                "source": "https://github.com/wp-cli/extension-command/tree/v2.1.13"
             },
-            "time": "2023-03-03T14:38:19+00:00"
+            "time": "2023-04-04T21:39:30+00:00"
         },
         {
             "name": "wp-cli/i18n-command",
@@ -5117,16 +5166,16 @@
         },
         {
             "name": "wp-cli/php-cli-tools",
-            "version": "v0.11.17",
+            "version": "v0.11.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-cli/php-cli-tools.git",
-                "reference": "f6be76b7c4ee2ef93c9531b8a37bdb7ce42c3728"
+                "reference": "0f503a790698cb36cf835e5c8d09cd4b64bf2325"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-cli/php-cli-tools/zipball/f6be76b7c4ee2ef93c9531b8a37bdb7ce42c3728",
-                "reference": "f6be76b7c4ee2ef93c9531b8a37bdb7ce42c3728",
+                "url": "https://api.github.com/repos/wp-cli/php-cli-tools/zipball/0f503a790698cb36cf835e5c8d09cd4b64bf2325",
+                "reference": "0f503a790698cb36cf835e5c8d09cd4b64bf2325",
                 "shasum": ""
             },
             "require": {
@@ -5174,9 +5223,9 @@
             ],
             "support": {
                 "issues": "https://github.com/wp-cli/php-cli-tools/issues",
-                "source": "https://github.com/wp-cli/php-cli-tools/tree/v0.11.17"
+                "source": "https://github.com/wp-cli/php-cli-tools/tree/v0.11.18"
             },
-            "time": "2023-01-12T01:18:21+00:00"
+            "time": "2023-04-04T16:03:53+00:00"
         },
         {
             "name": "wp-cli/rewrite-command",
@@ -5680,12 +5729,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-cli/wp-cli.git",
-                "reference": "a71167e1030462275a48c419854261efceba11e3"
+                "reference": "8283bbe5a5987ed9ca6281f5b2df6fb01010b166"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-cli/wp-cli/zipball/a71167e1030462275a48c419854261efceba11e3",
-                "reference": "a71167e1030462275a48c419854261efceba11e3",
+                "url": "https://api.github.com/repos/wp-cli/wp-cli/zipball/8283bbe5a5987ed9ca6281f5b2df6fb01010b166",
+                "reference": "8283bbe5a5987ed9ca6281f5b2df6fb01010b166",
                 "shasum": ""
             },
             "require": {
@@ -5744,7 +5793,7 @@
                 "issues": "https://github.com/wp-cli/wp-cli/issues",
                 "source": "https://github.com/wp-cli/wp-cli"
             },
-            "time": "2023-03-15T11:37:29+00:00"
+            "time": "2023-04-10T13:08:43+00:00"
         },
         {
             "name": "wp-cli/wp-cli-bundle",
@@ -5752,12 +5801,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-cli/wp-cli-bundle.git",
-                "reference": "aea6b3df4f8d9a9e8b27f8137ac1d7e25c423a22"
+                "reference": "f3b63c2e3e8518f348577ea1bfed267566c8126a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-cli/wp-cli-bundle/zipball/aea6b3df4f8d9a9e8b27f8137ac1d7e25c423a22",
-                "reference": "aea6b3df4f8d9a9e8b27f8137ac1d7e25c423a22",
+                "url": "https://api.github.com/repos/wp-cli/wp-cli-bundle/zipball/f3b63c2e3e8518f348577ea1bfed267566c8126a",
+                "reference": "f3b63c2e3e8518f348577ea1bfed267566c8126a",
                 "shasum": ""
             },
             "require": {
@@ -5819,7 +5868,7 @@
                 "issues": "https://github.com/wp-cli/wp-cli-bundle/issues",
                 "source": "https://github.com/wp-cli/wp-cli-bundle"
             },
-            "time": "2023-04-01T18:09:29+00:00"
+            "time": "2023-04-10T20:14:12+00:00"
         },
         {
             "name": "wp-cli/wp-config-transformer",
@@ -5917,9 +5966,18 @@
             "time": "2020-05-13T23:57:56+00:00"
         }
     ],
-    "aliases": [],
+    "aliases": [
+        {
+            "package": "pronamic/wp-deployer",
+            "version": "dev-main",
+            "alias": "1.2",
+            "alias_normalized": "1.2.0.0"
+        }
+    ],
     "minimum-stability": "stable",
     "stability-flags": {
+        "pronamic/pronamic-cli": 20,
+        "pronamic/wp-deployer": 20,
         "wp-cli/wp-cli": 20,
         "wp-cli/wp-cli-bundle": 20
     },
