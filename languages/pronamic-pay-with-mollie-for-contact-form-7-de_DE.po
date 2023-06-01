@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/pronamic-pay-with-"
 "mollie-for-contact-form-7\n"
 "POT-Creation-Date: 2023-03-29T09:43:40+00:00\n"
-"PO-Revision-Date: 2023-04-04 13:27+0200\n"
+"PO-Revision-Date: 2023-04-04 13:31+0200\n"
 "Last-Translator: Reüel van der Steege <reuel@pronamic.nl>\n"
 "Language-Team: Pronamic <info@pronamic.nl>\n"
 "Language: de_DE\n"
@@ -1200,11 +1200,11 @@ msgstr "Mollie Bestellnummer."
 
 #: packages/wp-pay-gateways/mollie/src/WebhookController.php:197
 msgid "Payment webhook requested by Mollie."
-msgstr "Zahlung Webhook angefordert von %s."
+msgstr "Zahlung Webhook angefordert von Mollie."
 
 #: packages/wp-pay-gateways/mollie/src/WebhookController.php:257
 msgid "Order webhook requested by Mollie."
-msgstr "Bestellung Webhook angefordert von %s."
+msgstr "Bestellung Webhook angefordert von Mollie."
 
 #. translators: %s: Mollie payment ID anchor.
 #: packages/wp-pay-gateways/mollie/views/meta-box-payment.php:41
