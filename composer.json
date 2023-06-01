@@ -52,6 +52,6 @@
 			"rsync --recursive --delete --verbose ./build/project/languages/ ./languages/"	
 		],
 		"version": "@build",
-		"release": "vendor/bin/pronamic release --gcloud-storage --pronamic-eu --github --wp-org"
+		"release": "vendor/bin/pronamic release --gcloud-storage --pronamic-directory --github --wp-org"
 	}
 }
