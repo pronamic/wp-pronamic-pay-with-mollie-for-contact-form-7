@@ -45,7 +45,7 @@
 		"wp-cli/wp-cli-bundle": "dev-main"
 	},
 	"scripts": {
-		"phpcs": "vendor/bin/phpcs -s -v --ignore=packages,build,tools",
+		"phpcs": "vendor/bin/phpcs -s -v --ignore=packages,build",
 		"build": "vendor/bin/pronamic wp-build",
 		"translate": [
 			"@build",
