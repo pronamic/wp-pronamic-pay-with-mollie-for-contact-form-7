@@ -1,7 +1,7 @@
 {
 	"name": "@pronamic/wp-pronamic-pay-with-mollie-for-contact-form-7",
 	"description": "Pronamic Pay plugin with Mollie for Contact Form 7 integration.",
-	"version": "1.1.3",
+	"version": "1.1.4",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/pronamic/wp-pronamic-pay-with-mollie-for-contact-form-7.git"
