@@ -41,7 +41,7 @@ This plugin adds the following Contact Form 7 tags for setting up payment forms 
 == Installation ==
 
 1. To install this plugin you can follow the WordPress documentation section "[Installing Plugins](https://wordpress.org/documentation/article/manage-plugins/#installing-plugins-1)".
-2. After installation you can follow the manual "[How to connect Pronamic Pay to Contact Form 7?](https://www.pronamicpay.com/en/manuals/how-to-connect-pronamic-pay-to-contact-form-7/)".
+2. After installation you can follow the manual "[How to connect Pronamic Pay to Contact Form 7](https://www.pronamicpay.com/en/manuals/how-to-connect-pronamic-pay-to-contact-form-7/)".
 
 == Screenshots ==
 
