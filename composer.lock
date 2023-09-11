@@ -471,16 +471,16 @@
         },
         {
             "name": "pronamic/wp-money",
-            "version": "v2.4.0",
+            "version": "v2.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pronamic/wp-money.git",
-                "reference": "554fcfb8b229fade8f08e7268dfe04ebeb9b18d7"
+                "reference": "3efd55f7fb5e79f40bc7ba23df4e643261f78bca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pronamic/wp-money/zipball/554fcfb8b229fade8f08e7268dfe04ebeb9b18d7",
-                "reference": "554fcfb8b229fade8f08e7268dfe04ebeb9b18d7",
+                "url": "https://api.github.com/repos/pronamic/wp-money/zipball/3efd55f7fb5e79f40bc7ba23df4e643261f78bca",
+                "reference": "3efd55f7fb5e79f40bc7ba23df4e643261f78bca",
                 "shasum": ""
             },
             "require": {
@@ -494,6 +494,7 @@
                 "koodimonni-language/nl_nl": "*",
                 "php-coveralls/php-coveralls": "^2.4",
                 "phpmd/phpmd": "^2.4",
+                "pronamic/pronamic-cli": "^1.0",
                 "pronamic/wp-coding-standards": "^1.3",
                 "pronamic/wp-deployer": "^1.0",
                 "roots/wordpress": "^6.0",
@@ -514,9 +515,9 @@
             "description": "WordPress Money library.",
             "support": {
                 "issues": "https://github.com/pronamic/wp-money/issues",
-                "source": "https://github.com/pronamic/wp-money/tree/v2.4.0"
+                "source": "https://github.com/pronamic/wp-money/tree/v2.4.1"
             },
-            "time": "2023-03-21T15:43:15+00:00"
+            "time": "2023-09-11T09:00:47+00:00"
         },
         {
             "name": "pronamic/wp-number",
@@ -748,16 +749,16 @@
         },
         {
             "name": "wp-pay-gateways/mollie",
-            "version": "v4.7.9",
+            "version": "v4.7.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pronamic/wp-pronamic-pay-mollie.git",
-                "reference": "25456829ebe00878d88cc82d67b3ee35f01d72de"
+                "reference": "bbfd73566077214d10f003cae2f64ef288ae06f5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pronamic/wp-pronamic-pay-mollie/zipball/25456829ebe00878d88cc82d67b3ee35f01d72de",
-                "reference": "25456829ebe00878d88cc82d67b3ee35f01d72de",
+                "url": "https://api.github.com/repos/pronamic/wp-pronamic-pay-mollie/zipball/bbfd73566077214d10f003cae2f64ef288ae06f5",
+                "reference": "bbfd73566077214d10f003cae2f64ef288ae06f5",
                 "shasum": ""
             },
             "require": {
@@ -821,20 +822,20 @@
                 "issues": "https://github.com/wp-pay-gateways/mollie/issues",
                 "source": "https://github.com/wp-pay-gateways/mollie"
             },
-            "time": "2023-08-23T08:48:58+00:00"
+            "time": "2023-09-11T09:22:29+00:00"
         },
         {
             "name": "wp-pay/core",
-            "version": "v4.11.0",
+            "version": "v4.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pronamic/wp-pay-core.git",
-                "reference": "5859217757f9229f671c51b035cc191365c871b2"
+                "reference": "06982a60a1127fbad0b9a1a5cd95d2a137cdc929"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pronamic/wp-pay-core/zipball/5859217757f9229f671c51b035cc191365c871b2",
-                "reference": "5859217757f9229f671c51b035cc191365c871b2",
+                "url": "https://api.github.com/repos/pronamic/wp-pay-core/zipball/06982a60a1127fbad0b9a1a5cd95d2a137cdc929",
+                "reference": "06982a60a1127fbad0b9a1a5cd95d2a137cdc929",
                 "shasum": ""
             },
             "require": {
@@ -907,7 +908,7 @@
                 "issues": "https://github.com/wp-pay/core/issues",
                 "source": "https://github.com/wp-pay/core"
             },
-            "time": "2023-08-23T08:40:21+00:00"
+            "time": "2023-09-11T08:57:31+00:00"
         }
     ],
     "packages-dev": [
@@ -966,16 +967,16 @@
         },
         {
             "name": "composer/ca-bundle",
-            "version": "1.3.6",
+            "version": "1.3.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/ca-bundle.git",
-                "reference": "90d087e988ff194065333d16bc5cf649872d9cdb"
+                "reference": "76e46335014860eec1aa5a724799a00a2e47cc85"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/90d087e988ff194065333d16bc5cf649872d9cdb",
-                "reference": "90d087e988ff194065333d16bc5cf649872d9cdb",
+                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/76e46335014860eec1aa5a724799a00a2e47cc85",
+                "reference": "76e46335014860eec1aa5a724799a00a2e47cc85",
                 "shasum": ""
             },
             "require": {
@@ -1022,7 +1023,7 @@
             "support": {
                 "irc": "irc://irc.freenode.org/composer",
                 "issues": "https://github.com/composer/ca-bundle/issues",
-                "source": "https://github.com/composer/ca-bundle/tree/1.3.6"
+                "source": "https://github.com/composer/ca-bundle/tree/1.3.7"
             },
             "funding": [
                 {
@@ -1038,7 +1039,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-06-06T12:02:59+00:00"
+            "time": "2023-08-30T09:31:38+00:00"
         },
         {
             "name": "composer/composer",
@@ -1281,16 +1282,16 @@
         },
         {
             "name": "composer/semver",
-            "version": "3.3.2",
+            "version": "3.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/semver.git",
-                "reference": "3953f23262f2bff1919fc82183ad9acb13ff62c9"
+                "reference": "35e8d0af4486141bc745f23a29cc2091eb624a32"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/semver/zipball/3953f23262f2bff1919fc82183ad9acb13ff62c9",
-                "reference": "3953f23262f2bff1919fc82183ad9acb13ff62c9",
+                "url": "https://api.github.com/repos/composer/semver/zipball/35e8d0af4486141bc745f23a29cc2091eb624a32",
+                "reference": "35e8d0af4486141bc745f23a29cc2091eb624a32",
                 "shasum": ""
             },
             "require": {
@@ -1340,9 +1341,9 @@
                 "versioning"
             ],
             "support": {
-                "irc": "irc://irc.freenode.org/composer",
+                "irc": "ircs://irc.libera.chat:6697/composer",
                 "issues": "https://github.com/composer/semver/issues",
-                "source": "https://github.com/composer/semver/tree/3.3.2"
+                "source": "https://github.com/composer/semver/tree/3.4.0"
             },
             "funding": [
                 {
@@ -1358,7 +1359,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-04-01T19:23:25+00:00"
+            "time": "2023-08-31T09:50:34+00:00"
         },
         {
             "name": "composer/spdx-licenses",
@@ -2389,22 +2390,22 @@
         },
         {
             "name": "roots/wordpress-no-content",
-            "version": "6.3",
+            "version": "6.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/WordPress/WordPress.git",
-                "reference": "6.3"
+                "reference": "6.3.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/release/wordpress-6.3-no-content.zip",
-                "shasum": "beb2a89525274d08fae06bf4bf5bc0cfdcb5b1f5"
+                "url": "https://downloads.wordpress.org/release/wordpress-6.3.1-no-content.zip",
+                "shasum": "102bc5e48d9372f1a71fbb133270e113af2363e3"
             },
             "require": {
                 "php": ">= 7.0.0"
             },
             "provide": {
-                "wordpress/core-implementation": "6.3"
+                "wordpress/core-implementation": "6.3.1"
             },
             "suggest": {
                 "ext-curl": "Performs remote request operations.",
@@ -2455,7 +2456,7 @@
                     "type": "other"
                 }
             ],
-            "time": "2023-08-08T19:41:46+00:00"
+            "time": "2023-08-29T14:23:47+00:00"
         },
         {
             "name": "seld/jsonlint",
@@ -4888,16 +4889,16 @@
         },
         {
             "name": "wp-cli/media-command",
-            "version": "v2.0.18",
+            "version": "v2.0.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-cli/media-command.git",
-                "reference": "92fc32580a16a70ccc028786896d22f6ca51a261"
+                "reference": "3d167f43b019a13738f4e082c3c33f8f9ea82bbb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-cli/media-command/zipball/92fc32580a16a70ccc028786896d22f6ca51a261",
-                "reference": "92fc32580a16a70ccc028786896d22f6ca51a261",
+                "url": "https://api.github.com/repos/wp-cli/media-command/zipball/3d167f43b019a13738f4e082c3c33f8f9ea82bbb",
+                "reference": "3d167f43b019a13738f4e082c3c33f8f9ea82bbb",
                 "shasum": ""
             },
             "require": {
@@ -4944,9 +4945,9 @@
             "homepage": "https://github.com/wp-cli/media-command",
             "support": {
                 "issues": "https://github.com/wp-cli/media-command/issues",
-                "source": "https://github.com/wp-cli/media-command/tree/v2.0.18"
+                "source": "https://github.com/wp-cli/media-command/tree/v2.0.19"
             },
-            "time": "2023-07-13T14:04:45+00:00"
+            "time": "2023-08-30T11:14:00+00:00"
         },
         {
             "name": "wp-cli/mustangostang-spyc",
@@ -5629,12 +5630,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-cli/wp-cli.git",
-                "reference": "89eb9918c37e22745657f76bc147a0eb0781a63e"
+                "reference": "db3d01f7e328ec3c349142b1f91113d8665c9a89"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-cli/wp-cli/zipball/89eb9918c37e22745657f76bc147a0eb0781a63e",
-                "reference": "89eb9918c37e22745657f76bc147a0eb0781a63e",
+                "url": "https://api.github.com/repos/wp-cli/wp-cli/zipball/db3d01f7e328ec3c349142b1f91113d8665c9a89",
+                "reference": "db3d01f7e328ec3c349142b1f91113d8665c9a89",
                 "shasum": ""
             },
             "require": {
@@ -5651,7 +5652,7 @@
                 "wp-cli/entity-command": "^1.2 || ^2",
                 "wp-cli/extension-command": "^1.1 || ^2",
                 "wp-cli/package-command": "^1 || ^2",
-                "wp-cli/wp-cli-tests": "^3.1.6"
+                "wp-cli/wp-cli-tests": "^4.0.1"
             },
             "suggest": {
                 "ext-readline": "Include for a better --prompt implementation",
@@ -5692,7 +5693,7 @@
                 "issues": "https://github.com/wp-cli/wp-cli/issues",
                 "source": "https://github.com/wp-cli/wp-cli"
             },
-            "time": "2023-08-18T13:52:58+00:00"
+            "time": "2023-09-06T21:06:01+00:00"
         },
         {
             "name": "wp-cli/wp-cli-bundle",
@@ -5700,12 +5701,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-cli/wp-cli-bundle.git",
-                "reference": "9ce7c5a68d5ae29b69faa96afb77ac423bf52ca1"
+                "reference": "85428c074b13f00ada3371755ab75d2a3829a59a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-cli/wp-cli-bundle/zipball/9ce7c5a68d5ae29b69faa96afb77ac423bf52ca1",
-                "reference": "9ce7c5a68d5ae29b69faa96afb77ac423bf52ca1",
+                "url": "https://api.github.com/repos/wp-cli/wp-cli-bundle/zipball/85428c074b13f00ada3371755ab75d2a3829a59a",
+                "reference": "85428c074b13f00ada3371755ab75d2a3829a59a",
                 "shasum": ""
             },
             "require": {
@@ -5740,7 +5741,7 @@
             },
             "require-dev": {
                 "roave/security-advisories": "dev-latest",
-                "wp-cli/wp-cli-tests": "^3.0.7"
+                "wp-cli/wp-cli-tests": "^4"
             },
             "suggest": {
                 "psy/psysh": "Enhanced `wp shell` functionality"
@@ -5767,7 +5768,7 @@
                 "issues": "https://github.com/wp-cli/wp-cli-bundle/issues",
                 "source": "https://github.com/wp-cli/wp-cli-bundle"
             },
-            "time": "2023-08-18T15:27:55+00:00"
+            "time": "2023-09-08T12:46:23+00:00"
         },
         {
             "name": "wp-cli/wp-config-transformer",
@@ -5881,5 +5882,5 @@
     "platform-overrides": {
         "php": "7.4"
     },
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.6.0"
 }
