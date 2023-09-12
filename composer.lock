@@ -2119,12 +2119,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/pronamic/pronamic-cli.git",
-                "reference": "33351cf6f659453489e06c1f2e7fa3f97df4d205"
+                "reference": "ed6c9041b4b165867997896e31f28c5e0c92aa97"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pronamic/pronamic-cli/zipball/33351cf6f659453489e06c1f2e7fa3f97df4d205",
-                "reference": "33351cf6f659453489e06c1f2e7fa3f97df4d205",
+                "url": "https://api.github.com/repos/pronamic/pronamic-cli/zipball/ed6c9041b4b165867997896e31f28c5e0c92aa97",
+                "reference": "ed6c9041b4b165867997896e31f28c5e0c92aa97",
                 "shasum": ""
             },
             "require": {
@@ -2160,7 +2160,7 @@
                 "issues": "https://github.com/pronamic/pronamic-cli/issues",
                 "source": "https://github.com/pronamic/pronamic-cli/tree/main"
             },
-            "time": "2023-06-06T09:57:38+00:00"
+            "time": "2023-09-12T11:31:28+00:00"
         },
         {
             "name": "pronamic/wp-coding-standards",

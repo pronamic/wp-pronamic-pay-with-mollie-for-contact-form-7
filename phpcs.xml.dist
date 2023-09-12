@@ -15,15 +15,5 @@
 		</properties>
 	</rule>
 
-	<rule ref="WordPress.Utils.I18nTextDomainFixer">
-		<properties>
-			<property name="old_text_domain" type="array">
-				<element value="action-scheduler" />
-				<element value="pronamic_ideal" />
-				<element value="pronamic-money" />
-			</property>
-
-			<property name="new_text_domain" value="pronamic-pay-with-mollie-for-contact-form-7" />
-		</properties>
-	</rule>
+	<rule ref="phpcs-text-domain-fixer.xml" />
 </ruleset>

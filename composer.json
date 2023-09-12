@@ -46,12 +46,17 @@
 	},
 	"scripts": {
 		"phpcs": "vendor/bin/phpcs -s -v --ignore=packages,build",
-		"build": "vendor/bin/pronamic wp-build",
+		"build": "vendor/bin/pronamic wp-build --text-domain-fixer=phpcs-text-domain-fixer.xml",
 		"translate": [
 			"@build",
 			"rsync --recursive --delete --verbose ./build/project/languages/ ./languages/"	
 		],
 		"version": "@build",
-		"release": "vendor/bin/pronamic release --gcloud-storage --pronamic-directory --github --wp-org"
+		"release": [
+			"@build",
+			"vendor/bin/pronamic release-to-github",
+			"vendor/bin/pronamic release-to-pronamic",
+			"vendor/bin/pronamic release-to-wp-org"
+		]
 	}
 }
