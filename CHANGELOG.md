@@ -5,6 +5,23 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.3.0] - 2023-11-07
+
+### Composer
+
+- Changed `automattic/jetpack-autoloader` from `v2.11.22` to `v2.12.0`.
+	Release notes: https://github.com/Automattic/jetpack-autoloader/releases/tag/v2.12.0
+- Changed `woocommerce/action-scheduler` from `3.6.2` to `3.6.4`.
+	Release notes: https://github.com/woocommerce/action-scheduler/releases/tag/3.6.4
+- Changed `wp-pay-extensions/contact-form-7` from `v3.3.0` to `v3.3.2`.
+	Release notes: https://github.com/pronamic/wp-pronamic-pay-contact-form-7/releases/tag/v3.3.2
+- Changed `wp-pay/core` from `v4.12.0` to `v4.14.1`.
+	Release notes: https://github.com/pronamic/wp-pay-core/releases/tag/v4.14.1
+
+Full set of changes: [`1.2.1...1.3.0`][1.3.0]
+
+[1.3.0]: https://github.com/pronamic/wp-pronamic-pay-with-mollie-for-contact-form-7/compare/v1.2.1...v1.3.0
+
 ## [1.2.1] - 2023-09-11
 
 ### Composer
