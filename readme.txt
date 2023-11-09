@@ -2,7 +2,7 @@
 Contributors: pronamic
 Tags: mollie, contact, form, contact form, payment, donation
 Requires at least: 5.9
-Tested up to: 6.2
+Tested up to: 6.4
 Requires PHP: 7.4
 Stable tag: 1.3.0
 License: GPLv2 or later
