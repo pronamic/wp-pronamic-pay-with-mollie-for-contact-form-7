@@ -6,7 +6,7 @@
  *
  * Version: 1.3.0
  * Requires at least: 5.9
- * Requires PHP: 7.4
+ * Requires PHP: 8.0
  *
  * Author: Pronamic
  * Author URI: https://www.pronamic.eu/
@@ -37,7 +37,7 @@ require_once __DIR__ . '/vendor/autoload_packages.php';
 add_action(
 	'plugins_loaded',
 	function() {
-		load_plugin_textdomain( 'pronamic-pay-with-mollie-for-contact-form-7', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' ); 
+		load_plugin_textdomain( 'pronamic-pay-with-mollie-for-contact-form-7', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
 	}
 );
 
