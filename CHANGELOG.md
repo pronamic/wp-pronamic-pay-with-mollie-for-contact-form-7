@@ -5,6 +5,21 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.4.1] - 2023-12-18
+
+### Composer
+
+- Changed `woocommerce/action-scheduler` from `3.6.4` to `3.7.1`.
+	Release notes: https://github.com/woocommerce/action-scheduler/releases/tag/3.7.1
+- Changed `wp-pay-extensions/contact-form-7` from `v3.3.2` to `v3.4.0`.
+	Release notes: https://github.com/pronamic/wp-pronamic-pay-contact-form-7/releases/tag/v3.4.0
+- Changed `wp-pay/core` from `v4.14.2` to `v4.14.3`.
+	Release notes: https://github.com/pronamic/wp-pay-core/releases/tag/v4.14.3
+
+Full set of changes: [`1.4.0...1.4.1`][1.4.1]
+
+[1.4.1]: https://github.com/pronamic/wp-pronamic-pay-with-mollie-for-contact-form-7/compare/v1.4.0...v1.4.1
+
 ## [1.4.0] - 2023-11-09
 
 ### Changed
