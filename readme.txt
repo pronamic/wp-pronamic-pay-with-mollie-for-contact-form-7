@@ -1,6 +1,6 @@
 === Pronamic Pay with Mollie for Contact Form 7 ===
 Contributors: pronamic
-Tags: mollie, contact, form, contact form, payment, donation
+Tags: mollie, contact, form, contact form, payment, donation, credit card, paypal, iDEAL, bancontact, giropay
 Requires at least: 5.9
 Tested up to: 6.4
 Requires PHP: 8.0
@@ -57,5 +57,7 @@ This plugin adds the following Contact Form 7 tags for setting up payment forms 
 
 == Links ==
 
--	[Pronamic Pay](https://www.pronamicpay.com/)
+- [Pronamic Pay with Mollie for Contact Form 7](https://www.pronamicpay.com/en/connections/mollie-for-contact-form-7/)
+- [Pronamic Pay manuals for Mollie](https://www.pronamicpay.com/en/manual-category/mollie/)
+- [Pronamic Pay manuals for Contact Form 7](https://www.pronamicpay.com/en/manual-category/contact-form-7/)
 -	[Pronamic](https://www.pronamic.eu/)
