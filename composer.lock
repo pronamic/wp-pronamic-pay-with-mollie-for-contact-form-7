@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "66f054dfe88b94f70000a1b3f4551776",
+    "content-hash": "3b42ec294bac4d4e890ee78aeab94bfc",
     "packages": [
         {
             "name": "automattic/jetpack-autoloader",
@@ -2379,16 +2379,16 @@
         },
         {
             "name": "pronamic/pronamic-cli",
-            "version": "dev-main",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pronamic/pronamic-cli.git",
-                "reference": "542a76bec026ac6f32fd3000022a2c36c6aa79ab"
+                "reference": "f3ade4d60c06b5ae8b90bb47ab880c69519268a3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pronamic/pronamic-cli/zipball/542a76bec026ac6f32fd3000022a2c36c6aa79ab",
-                "reference": "542a76bec026ac6f32fd3000022a2c36c6aa79ab",
+                "url": "https://api.github.com/repos/pronamic/pronamic-cli/zipball/f3ade4d60c06b5ae8b90bb47ab880c69519268a3",
+                "reference": "f3ade4d60c06b5ae8b90bb47ab880c69519268a3",
                 "shasum": ""
             },
             "require": {
@@ -2402,7 +2402,6 @@
                 "pronamic/wp-coding-standards": "^2.0",
                 "yoast/phpunit-polyfills": "^2.0"
             },
-            "default-branch": true,
             "bin": [
                 "bin/pronamic"
             ],
@@ -2422,9 +2421,9 @@
             "description": "Pronamic CLI is the command-line interface for Pronamic.",
             "support": {
                 "issues": "https://github.com/pronamic/pronamic-cli/issues",
-                "source": "https://github.com/pronamic/pronamic-cli/tree/main"
+                "source": "https://github.com/pronamic/pronamic-cli/tree/v1.1.0"
             },
-            "time": "2023-11-06T14:30:33+00:00"
+            "time": "2023-10-13T11:52:41+00:00"
         },
         {
             "name": "pronamic/wp-coding-standards",
@@ -6315,7 +6314,6 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "pronamic/pronamic-cli": 20,
         "wp-cli/wp-cli": 20,
         "wp-cli/wp-cli-bundle": 20
     },
