@@ -26,6 +26,10 @@
  * @package   Pronamic\WordPress\Pay
  */
 
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
+
 /**
  * Autoload.
  */
