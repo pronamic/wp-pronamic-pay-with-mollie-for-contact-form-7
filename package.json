@@ -13,6 +13,6 @@
 	},
 	"homepage": "https://github.com/pronamic/wp-pronamic-pay-with-mollie-for-contact-form-7#readme",
 	"devDependencies": {
-		"@wordpress/env": "^8.11.0"
+		"@wordpress/env": "^9.2.0"
 	}
 }
