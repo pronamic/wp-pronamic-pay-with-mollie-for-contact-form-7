@@ -4,27 +4,28 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3b42ec294bac4d4e890ee78aeab94bfc",
+    "content-hash": "db569b72987457100b7c6fc36d8e1c9f",
     "packages": [
         {
             "name": "automattic/jetpack-autoloader",
-            "version": "v2.12.0",
+            "version": "v3.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Automattic/jetpack-autoloader.git",
-                "reference": "632b69cfc73ed5505f2b03165e7f68d414d0da12"
+                "reference": "bbf43988d1538a9f2678809b0868dc42111d0b12"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Automattic/jetpack-autoloader/zipball/632b69cfc73ed5505f2b03165e7f68d414d0da12",
-                "reference": "632b69cfc73ed5505f2b03165e7f68d414d0da12",
+                "url": "https://api.github.com/repos/Automattic/jetpack-autoloader/zipball/bbf43988d1538a9f2678809b0868dc42111d0b12",
+                "reference": "bbf43988d1538a9f2678809b0868dc42111d0b12",
                 "shasum": ""
             },
             "require": {
-                "composer-plugin-api": "^1.1 || ^2.0"
+                "composer-plugin-api": "^1.1 || ^2.0",
+                "php": ">=7.0"
             },
             "require-dev": {
-                "automattic/jetpack-changelogger": "^3.3.11",
+                "automattic/jetpack-changelogger": "^4.0.2",
                 "yoast/phpunit-polyfills": "1.1.0"
             },
             "type": "composer-plugin",
@@ -39,7 +40,7 @@
                     "::VERSION": "src/AutoloadGenerator.php"
                 },
                 "branch-alias": {
-                    "dev-trunk": "2.12.x-dev"
+                    "dev-trunk": "3.0.x-dev"
                 }
             },
             "autoload": {
@@ -64,9 +65,9 @@
                 "wordpress"
             ],
             "support": {
-                "source": "https://github.com/Automattic/jetpack-autoloader/tree/v2.12.0"
+                "source": "https://github.com/Automattic/jetpack-autoloader/tree/v3.0.2"
             },
-            "time": "2023-09-28T18:33:34+00:00"
+            "time": "2023-11-21T18:59:10+00:00"
         },
         {
             "name": "composer/installers",
@@ -680,16 +681,16 @@
         },
         {
             "name": "wp-pay-extensions/contact-form-7",
-            "version": "v3.4.0",
+            "version": "v3.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pronamic/wp-pronamic-pay-contact-form-7.git",
-                "reference": "b952bf397b359b8e8fd9fa1a68898bd22a7e1e79"
+                "reference": "1ae6716e649c3367155102943287e2df285ee616"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pronamic/wp-pronamic-pay-contact-form-7/zipball/b952bf397b359b8e8fd9fa1a68898bd22a7e1e79",
-                "reference": "b952bf397b359b8e8fd9fa1a68898bd22a7e1e79",
+                "url": "https://api.github.com/repos/pronamic/wp-pronamic-pay-contact-form-7/zipball/1ae6716e649c3367155102943287e2df285ee616",
+                "reference": "1ae6716e649c3367155102943287e2df285ee616",
                 "shasum": ""
             },
             "require": {
@@ -751,7 +752,7 @@
                 "issues": "https://github.com/wp-pay-extensions/contact-form-7/issues",
                 "source": "https://github.com/wp-pay-extensions/contact-form-7/"
             },
-            "time": "2023-12-18T11:22:52+00:00"
+            "time": "2024-02-07T20:00:33+00:00"
         },
         {
             "name": "wp-pay-gateways/mollie",
@@ -832,16 +833,16 @@
         },
         {
             "name": "wp-pay/core",
-            "version": "v4.14.3",
+            "version": "v4.15.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pronamic/wp-pay-core.git",
-                "reference": "c743a1506d01274286f51d23debf765004b17d6f"
+                "reference": "da19613d2dfb428ebfe092f161d11af7c2332cce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pronamic/wp-pay-core/zipball/c743a1506d01274286f51d23debf765004b17d6f",
-                "reference": "c743a1506d01274286f51d23debf765004b17d6f",
+                "url": "https://api.github.com/repos/pronamic/wp-pay-core/zipball/da19613d2dfb428ebfe092f161d11af7c2332cce",
+                "reference": "da19613d2dfb428ebfe092f161d11af7c2332cce",
                 "shasum": ""
             },
             "require": {
@@ -914,7 +915,7 @@
                 "issues": "https://github.com/wp-pay/core/issues",
                 "source": "https://github.com/wp-pay/core"
             },
-            "time": "2023-12-18T13:33:27+00:00"
+            "time": "2024-02-07T19:07:02+00:00"
         }
     ],
     "packages-dev": [
