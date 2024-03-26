@@ -1,6 +1,6 @@
 === Pronamic Pay with Mollie for Contact Form 7 ===
 Contributors: pronamic
-Tags: mollie, contact, form, contact form, payment, donation, credit card, paypal, iDEAL, bancontact, giropay
+Tags: pronamic, pay, mollie, contact-form-7, contactform7
 Requires at least: 5.9
 Tested up to: 6.5
 Requires PHP: 8.0
