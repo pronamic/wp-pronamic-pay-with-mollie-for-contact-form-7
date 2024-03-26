@@ -5,6 +5,30 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.6.0] - 2024-03-26
+
+### Commits
+
+- Tested up to: 6.5. ([aec47b2](https://github.com/pronamic/wp-pronamic-pay-with-mollie-for-contact-form-7/commit/aec47b2d0502750cbbfd8e2d5a45827bdc898fa5))
+- Removed Mollie signup link. ([7c17927](https://github.com/pronamic/wp-pronamic-pay-with-mollie-for-contact-form-7/commit/7c17927c6d3f369e850aecf958deb76e38032da5))
+
+### Composer
+
+- Changed `automattic/jetpack-autoloader` from `v3.0.2` to `v3.0.4`.
+	Release notes: https://github.com/Automattic/jetpack-autoloader/releases/tag/v3.0.4
+- Changed `woocommerce/action-scheduler` from `3.7.1` to `3.7.3`.
+	Release notes: https://github.com/woocommerce/action-scheduler/releases/tag/3.7.3
+- Changed `wp-pay-extensions/contact-form-7` from `v3.5.0` to `v3.5.1`.
+	Release notes: https://github.com/pronamic/wp-pronamic-pay-contact-form-7/releases/tag/v3.5.1
+- Changed `wp-pay-gateways/mollie` from `v4.9.0` to `v4.10.0`.
+	Release notes: https://github.com/pronamic/wp-pronamic-pay-mollie/releases/tag/v4.10.0
+- Changed `wp-pay/core` from `v4.15.0` to `v4.16.0`.
+	Release notes: https://github.com/pronamic/wp-pay-core/releases/tag/v4.16.0
+
+Full set of changes: [`1.5.0...1.6.0`][1.6.0]
+
+[1.6.0]: https://github.com/pronamic/wp-pronamic-pay-with-mollie-for-contact-form-7/compare/v1.5.0...v1.6.0
+
 ## [1.5.0] - 2024-02-08
 
 ### Changed
