@@ -2,7 +2,7 @@
 Contributors: pronamic
 Tags: mollie, contact, form, contact form, payment, donation, credit card, paypal, iDEAL, bancontact, giropay
 Requires at least: 5.9
-Tested up to: 6.4
+Tested up to: 6.5
 Requires PHP: 8.0
 Stable tag: 1.5.0
 License: GPLv2 or later
