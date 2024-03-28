@@ -18,7 +18,7 @@ Accept payments with Mollie and Contact Form 7. This free plugin is all that you
 
 https://youtu.be/PKRHN6lNRLk
 
-= Features =
+### Features
 
 This plugin is developed from the idea that online payments should be easy. Some of the features:
 
@@ -29,7 +29,7 @@ This plugin is developed from the idea that online payments should be easy. Some
 - High quality support
 - Built by Pronamic
 
-= Supported tags =
+### Supported tags
 
 This plugin adds the following Contact Form 7 tags for setting up payment forms with Contact Form 7:
 
