@@ -1,0 +1,23 @@
+name: Deploy readme.txt to WordPress.org
+
+on:
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            .github
+            readme.txt
+
+      - name: Deploy
+        uses: pronamic/action-wordpress-plugin-readme-update@main
+        env:
+          SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
+          SVN_USERNAME: ${{ secrets.SVN_USERNAME }}
+          WP_SLUG: pronamic-pay-with-mollie-for-contact-form-7

@@ -1,8 +1,8 @@
 /.editorconfig           export-ignore
 /.gitattributes          export-ignore
+/.github/                export-ignore
 /.gitignore              export-ignore
 /.ppronamic-build-ignore export-ignore
 /.wordpress-org/         export-ignore
 /.wp-env.json            export-ignore
 /phpcs.xml.dist          export-ignore
-/tools/                  export-ignore
