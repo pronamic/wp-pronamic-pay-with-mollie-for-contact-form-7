@@ -33,11 +33,11 @@ This plugin is developed from the idea that online payments should be easy. Some
 
 This plugin adds the following Contact Form 7 tags for setting up payment forms with Contact Form 7:
 
-- pronamic_pay_amount
-- pronamic_pay_description
-- pronamic_pay_email
-- pronamic_pay_issuer
-- pronamic_pay_method
+- <code>pronamic_pay_amount</code>
+- <code>pronamic_pay_description</code>
+- <code>pronamic_pay_email</code>
+- <code>pronamic_pay_issuer</code>
+- <code>pronamic_pay_method</code>
 
 == Installation ==
 
