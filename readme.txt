@@ -12,7 +12,7 @@ Connect Mollie to Contact Form 7 with Pronamic Pay. This free plugin is all that
 
 == Description ==
 
-[Pronamic Pay](https://www.pronamicpay.com/) · [Pronamic](https://www.pronamic.eu/) · <a href="https://github.com/pronamic/wp-pronamic-pay-with-mollie-for-contact-form-7">GitHub <code>pronamic/wp-pronamic-pay-with-mollie-for-contact-form-7</code></a>
+[Pronamic Pay](https://www.pronamicpay.com/) · [Pronamic](https://www.pronamic.eu/) · [GitHub](https://github.com/pronamic/wp-pronamic-pay-with-mollie-for-contact-form-7)
 
 Accept payments with Mollie and Contact Form 7. This free plugin is all that you need to connect your Contact Form 7 forms to Mollie. The installation is as easy as creating a form. Just add your form fields, choose a payment amount and add a list of the available payment methods from Mollie. You can choose which payment methods you want to embed in your form.
 
@@ -38,6 +38,30 @@ This plugin adds the following Contact Form 7 tags for setting up payment forms 
 - <code>pronamic_pay_email</code>
 - <code>pronamic_pay_issuer</code>
 - <code>pronamic_pay_method</code>
+
+### Pronamic Pay Premium
+
+With a Pronamic Pay Premium license, you get access to exceptional support and a range of exclusive benefits that take your payment experience to the next level.
+
+#### Premium Support
+
+- **Fast and expert help** from our team of specialists.
+- **Priority treatment** for your support tickets.
+
+#### Premium Add-ons
+
+- **Pronamic Pay Fundraising Add-On**
+  Easily create online fundraising and crowdfunding campaigns.
+- **Pronamic Pay Notification Add-On**
+  Set up extensive notifications for payers and administrators.
+- **Pronamic Pay WP All Export Add-On**
+  Export all your payment data with a few clicks.
+
+And much more!
+
+Discover all the benefits of Pronamic Pay Premium at [https://www.pronamicpay.com/](https://www.pronamicpay.com/).
+
+**Upgrade to Pronamic Pay Premium now and take advantage of all the benefits!**
 
 == Installation ==
 
