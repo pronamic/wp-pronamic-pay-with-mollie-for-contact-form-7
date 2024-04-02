@@ -43,12 +43,12 @@ This plugin adds the following Contact Form 7 tags for setting up payment forms 
 
 With a Pronamic Pay Premium license, you get access to exceptional support and a range of exclusive benefits that take your payment experience to the next level.
 
-#### Premium Support
+#### Premium support
 
 - **Fast and expert help** from our team of specialists.
 - **Priority treatment** for your support tickets.
 
-#### Premium Add-ons
+#### Premium add-ons
 
 - **Pronamic Pay Fundraising Add-On**
   Easily create online fundraising and crowdfunding campaigns.
