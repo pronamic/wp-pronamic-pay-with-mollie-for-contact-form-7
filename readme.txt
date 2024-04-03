@@ -82,7 +82,7 @@ Discover all the benefits of Pronamic Pay Premium at [https://www.pronamicpay.co
 
 == Links ==
 
-- [Pronamic Pay with Mollie for Contact Form 7](https://www.pronamicpay.com/en/connections/mollie-for-contact-form-7/)
-- [Pronamic Pay manuals for Mollie](https://www.pronamicpay.com/en/manual-category/mollie/)
-- [Pronamic Pay manuals for Contact Form 7](https://www.pronamicpay.com/en/manual-category/contact-form-7/)
+- [Pronamic Pay with Mollie for Contact Form 7](https://www.pronamicpay.com/connections/mollie-for-contact-form-7/)
+- [Pronamic Pay manuals for Mollie](https://www.pronamicpay.com/manual-category/mollie/)
+- [Pronamic Pay manuals for Contact Form 7](https://www.pronamicpay.com/manual-category/contact-form-7/)
 -	[Pronamic](https://www.pronamic.eu/)
