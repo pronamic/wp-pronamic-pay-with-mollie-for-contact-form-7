@@ -21,7 +21,7 @@ jobs:
 
       - name: Deploy
         uses: pronamic/action-wordpress-plugin-readme-update@main
-        env:
-          SVN_USERNAME: pronamic
-          SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
-          WP_SLUG: pronamic-pay-with-mollie-for-contact-form-7
+        with:
+          svn-username: pronamic
+          svn-password: ${{ secrets.SVN_PASSWORD }}
+          wp-slug: pronamic-pay-with-mollie-for-contact-form-7
