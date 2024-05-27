@@ -32,10 +32,10 @@
 		"php": ">=8.1",
 		"automattic/jetpack-autoloader": "^3.0",
 		"composer/installers": "^2.2",
-		"woocommerce/action-scheduler": "^3.7",
+		"woocommerce/action-scheduler": "^3.8",
 		"wp-pay-extensions/contact-form-7": "^3.5",
 		"wp-pay-gateways/mollie": "^4.10",
-		"wp-pay/core": "^4.17"
+		"wp-pay/core": "^4.18"
 	},
 	"require-dev": {
 		"pronamic/pronamic-cli": "^1.1",
