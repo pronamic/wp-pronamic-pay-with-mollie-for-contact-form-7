@@ -4,7 +4,7 @@
  * Plugin URI: https://www.pronamic.eu/plugins/pronamic-pay-with-mollie-for-contact-form-7/
  * Description: Pronamic Pay plugin with Mollie for Contact Form 7 integration.
  *
- * Version: 1.8.0
+ * Version: 1.8.1
  * Requires at least: 5.9
  * Requires PHP: 8.1
  *
