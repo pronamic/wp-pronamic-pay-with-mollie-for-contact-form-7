@@ -5,6 +5,33 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.9.0] - 2024-09-27
+
+### Added
+
+- Added support for setting currency with `pronamic_pay_currency` field name or option. ([#20](https://github.com/pronamic/wp-pronamic-pay-contact-form-7/issues/20))
+
+### Commits
+
+- Tested up to: 6.6 ([924b2b4](https://github.com/pronamic/wp-pronamic-pay-with-mollie-for-contact-form-7/commit/924b2b4d206e3d6324202103e8cde9f20fef41b9))
+
+### Composer
+
+- Changed `automattic/jetpack-autoloader` from `v3.0.8` to `v3.1.0`.
+	Release notes: https://github.com/Automattic/jetpack-autoloader/releases/tag/v3.1.0
+- Changed `composer/installers` from `v2.2.0` to `v2.3.0`.
+	Release notes: https://github.com/composer/installers/releases/tag/v2.3.0
+- Changed `woocommerce/action-scheduler` from `3.8.0` to `3.8.2`.
+	Release notes: https://github.com/woocommerce/action-scheduler/releases/tag/3.8.2
+- Changed `wp-pay-extensions/contact-form-7` from `v3.5.1` to `v3.6.0`.
+	Release notes: https://github.com/pronamic/wp-pronamic-pay-contact-form-7/releases/tag/v3.6.0
+- Changed `wp-pay/core` from `v4.20.0` to `v4.22.1`.
+	Release notes: https://github.com/pronamic/wp-pay-core/releases/tag/v4.22.1
+
+Full set of changes: [`1.8.1...1.9.0`][1.9.0]
+
+[1.9.0]: https://github.com/pronamic/wp-pronamic-pay-with-mollie-for-contact-form-7/compare/v1.8.1...v1.9.0
+
 ## [1.8.1] - 2024-06-19
 
 ### Commits

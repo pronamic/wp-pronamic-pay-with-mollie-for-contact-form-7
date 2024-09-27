@@ -1,6 +1,6 @@
 {
 	"name": "@pronamic/wp-pronamic-pay-with-mollie-for-contact-form-7",
-	"version": "1.8.1",
+	"version": "1.9.0",
 	"description": "Pronamic Pay plugin with Mollie for Contact Form 7 integration.",
 	"author": "Pronamic",
 	"license": "GPL-2.0-or-later",
