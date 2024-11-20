@@ -2,7 +2,7 @@
 Contributors: pronamic
 Tags: pronamic, pay, mollie, contact-form-7, contactform7
 Requires at least: 5.9
-Tested up to: 6.6
+Tested up to: 6.7
 Requires PHP: 8.1
 Stable tag: 1.9.0
 License: GPLv2 or later
