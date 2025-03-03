@@ -5,6 +5,21 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.11.1] - 2025-03-03
+
+### Commits
+
+- Fixed fatal error with Contact Form 7 due to incorrect file path. ([#24](https://github.com/pronamic/wp-pronamic-pay-contact-form-7/issues/24))
+
+### Composer
+
+- Changed `wp-pay-extensions/contact-form-7` from `v4.0.0` to `v4.0.1`.
+	Release notes: https://github.com/pronamic/wp-pronamic-pay-contact-form-7/releases/tag/v4.0.1
+
+Full set of changes: [`1.11.0...1.11.1`][1.11.1]
+
+[1.11.1]: https://github.com/pronamic/wp-pronamic-pay-with-mollie-for-contact-form-7/compare/v1.11.0...v1.11.1
+
 ## [1.11.0] - 2025-02-28
 
 ### Composer
