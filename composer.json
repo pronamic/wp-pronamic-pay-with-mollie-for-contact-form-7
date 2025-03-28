@@ -46,10 +46,21 @@
 	},
 	"scripts": {
 		"phpcs": "vendor/bin/phpcs -s -v --ignore=packages,build",
-		"build": "vendor/bin/pronamic wp-build --text-domain-fixer=phpcs-text-domain-fixer.xml",
+		"build": [
+			"rm -rf ./build",
+			"mkdir ./build",
+			"mkdir ./build/stage-1",
+			"mkdir ./build/stage-2",
+			"rsync --recursive --verbose --exclude-from=.distignore --exclude-from=.gitignore ./ ./build/stage-1/",
+			"composer install --no-dev --prefer-dist --optimize-autoloader --working-dir=./build/stage-1/",
+			"rsync --recursive --verbose --exclude-from=.distignore ./build/stage-1/ ./build/stage-2/",
+			"vendor/bin/phpcbf -s -v --standard=phpcs-text-domain-fixer.xml ./build/stage-2/ || true",
+			"vendor/bin/wp i18n make-pot ./build/stage-2/ --slug=pronamic-pay-with-mollie-for-contact-form-7",
+			"vendor/bin/wp dist-archive ./build/stage-2/ --plugin-dirname=pronamic-pay-with-mollie-for-contact-form-7"
+		],
 		"translate": [
 			"@build",
-			"rsync --recursive --delete --verbose ./build/project/languages/ ./languages/"
+			"rsync --recursive --delete --verbose ./build/stage-2/languages/ ./languages/"
 		],
 		"version": "@build",
 		"release": [
