@@ -19,6 +19,8 @@
 
 .travis.yml
 
+php_errors.log
+
 phpcs-text-domain-fixer.xml
 phpcs.xml.dist
 
