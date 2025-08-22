@@ -21,8 +21,8 @@
 		"url": "https://github.com/pronamic/wp-pronamic-pay-with-mollie-for-contact-form-7/issues"
 	},
 	"devDependencies": {
-		"@wordpress/env": "^9.10.0",
-		"@wordpress/scripts": "^27.9.0"
+		"@wordpress/env": "^10.29.0",
+		"@wordpress/scripts": "^30.22.0"
 	},
 	"scripts": {
 		"lint:pkg-json": "wp-scripts lint-pkg-json"
