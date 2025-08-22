@@ -1,0 +1,16 @@
+{
+	"landingPage": "\/wp-admin\/admin.php?page=pronamic_ideal",
+	"login": true,
+	"plugins": [
+		"contact-form-7"
+	],
+	"steps": [
+		{
+			"step": "defineWpConfigConsts",
+			"consts": {
+				"USE_PLAYGROUND_CORS_PROXY": true,
+				"IS_PLAYGROUND_PREVIEW": true
+			}
+		}
+	]
+}
