@@ -11,7 +11,7 @@
 			"roots/wordpress-core-installer": true
 		},
 		"platform": {
-			"php": "8.1"
+			"php": "8.2"
 		},
 		"platform-check": false,
 		"sort-packages": true,
@@ -29,18 +29,18 @@
 		}
 	},
 	"require": {
-		"php": ">=8.1",
-		"automattic/jetpack-autoloader": "^3.1",
+		"php": ">=8.2",
+		"automattic/jetpack-autoloader": "^5.0",
 		"composer/installers": "^2.3",
 		"woocommerce/action-scheduler": "^3.9",
 		"wp-pay-extensions/contact-form-7": "^4.1",
-		"wp-pay-gateways/mollie": "^4.15",
-		"wp-pay/core": "^4.26"
+		"wp-pay-gateways/mollie": "^4.16",
+		"wp-pay/core": "^4.27"
 	},
 	"require-dev": {
 		"pronamic/pronamic-cli": "^1.1",
-		"pronamic/wp-coding-standards": "^2.2",
-		"roots/wordpress-no-content": "^6.4",
+		"pronamic/wp-coding-standards": "^2.4",
+		"roots/wordpress-no-content": "^6.8",
 		"wp-cli/dist-archive-command": "*",
 		"wp-cli/wp-cli-bundle": "*"
 	},
