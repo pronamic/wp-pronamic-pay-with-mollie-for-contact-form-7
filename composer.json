@@ -62,8 +62,10 @@
 		],
 		"translate": [
 			"@build",
-			"rsync --recursive --delete --verbose ./build/stage-2/languages/ ./languages/"
+			"rsync --recursive --delete --verbose ./build/stage-2/languages/ ./languages/",
+			"@update-po"
 		],
+		"update-po": "find languages/*.po -type f -exec msgmerge --update --backup=off {} languages/pronamic-pay-notification-add-on.pot \\;",
 		"version": "@build",
 		"release": [
 			"@build",
