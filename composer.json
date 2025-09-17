@@ -38,6 +38,7 @@
 		"wp-pay/core": "^4.27"
 	},
 	"require-dev": {
+		"pronamic/changelog-md-to-wordpress-plugin-readme-txt": "dev-main",
 		"pronamic/pronamic-cli": "^1.1",
 		"pronamic/wp-coding-standards": "^2.4",
 		"roots/wordpress-no-content": "^6.8",
@@ -47,6 +48,7 @@
 	"scripts": {
 		"phpcs": "vendor/bin/phpcs -s -v --ignore=packages,build",
 		"build": [
+			"Pronamic\\ChangelogMdToWordPressPluginReadmeTxt\\Synchronizer::run",
 			"rm -rf ./build",
 			"mkdir ./build",
 			"mkdir ./build/stage-1",

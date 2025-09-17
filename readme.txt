@@ -76,9 +76,13 @@ Discover all the benefits of Pronamic Pay Premium at [https://www.pronamicpay.co
 
 == Changelog ==
 
+<!-- Start changelog -->
+
 = 1.0.0 =
 
 - First release.
+
+<!-- End changelog -->
 
 == Links ==
 
