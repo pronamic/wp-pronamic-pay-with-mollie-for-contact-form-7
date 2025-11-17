@@ -34,8 +34,8 @@
 		"composer/installers": "^2.3",
 		"woocommerce/action-scheduler": "^3.9",
 		"wp-pay-extensions/contact-form-7": "^4.1",
-		"wp-pay-gateways/mollie": "^4.16",
-		"wp-pay/core": "^4.27"
+		"wp-pay-gateways/mollie": "^4.17",
+		"wp-pay/core": "^4.28"
 	},
 	"require-dev": {
 		"pronamic/changelog-md-to-wordpress-plugin-readme-txt": "dev-main",
