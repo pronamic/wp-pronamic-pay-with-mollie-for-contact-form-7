@@ -7,6 +7,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 <!-- Start changelog -->
 
+## [1.13.4] - 2025-11-17
+
+### Composer
+
+- Changed `automattic/jetpack-autoloader` from `v5.0.12` to `v5.0.13`.
+	Release notes: https://github.com/Automattic/jetpack-autoloader/releases/tag/v5.0.13
+- Changed `wp-pay-gateways/mollie` from `v4.16.3` to `v4.17.0`.
+	Release notes: https://github.com/pronamic/wp-pronamic-pay-mollie/releases/tag/v4.17.0
+- Changed `wp-pay/core` from `v4.27.1` to `v4.28.0`.
+	Release notes: https://github.com/pronamic/wp-pay-core/releases/tag/v4.28.0
+
+Full set of changes: [`1.13.3...1.13.4`][1.13.4]
+
+[1.13.4]: https://github.com/pronamic/wp-pronamic-pay-with-mollie-for-contact-form-7/compare/v1.13.3...v1.13.4
+
 ## [1.13.3] - 2025-11-11
 
 ### Composer

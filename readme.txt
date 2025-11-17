@@ -4,7 +4,7 @@ Tags: pronamic, pay, mollie, contact-form-7, contactform7
 Requires at least: 5.9
 Tested up to: 6.8
 Requires PHP: 8.2
-Stable tag: 1.13.3
+Stable tag: 1.13.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -77,6 +77,21 @@ Discover all the benefits of Pronamic Pay Premium at [https://www.pronamicpay.co
 == Changelog ==
 
 <!-- Start changelog -->
+
+### [1.13.4] - 2025-11-17
+
+#### Composer
+
+- Changed `automattic/jetpack-autoloader` from `v5.0.12` to `v5.0.13`.
+	Release notes: https://github.com/Automattic/jetpack-autoloader/releases/tag/v5.0.13
+- Changed `wp-pay-gateways/mollie` from `v4.16.3` to `v4.17.0`.
+	Release notes: https://github.com/pronamic/wp-pronamic-pay-mollie/releases/tag/v4.17.0
+- Changed `wp-pay/core` from `v4.27.1` to `v4.28.0`.
+	Release notes: https://github.com/pronamic/wp-pay-core/releases/tag/v4.28.0
+
+Full set of changes: [`1.13.3...1.13.4`][1.13.4]
+
+[1.13.4]: https://github.com/pronamic/wp-pronamic-pay-with-mollie-for-contact-form-7/compare/v1.13.3...v1.13.4
 
 ### [1.13.3] - 2025-11-11
 
