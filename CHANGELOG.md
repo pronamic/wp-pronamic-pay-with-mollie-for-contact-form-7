@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 <!-- Start changelog -->
 
+## [1.16.0] - 2026-04-02
+
+### Changed
+
+- Updated `wp-pay/core` to `^4.32` for latest improvements and fixes.
+
+Full set of changes: [`1.15.0...1.16.0`][1.16.0]
+
+[1.16.0]: https://github.com/pronamic/wp-pronamic-pay-with-mollie-for-contact-form-7/compare/v1.15.0...v1.16.0
+
 ## [1.15.0] - 2026-01-27
 
 ### Composer
