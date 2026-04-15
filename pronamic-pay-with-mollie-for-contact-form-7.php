@@ -45,6 +45,8 @@ add_action(
 	}
 );
 
+\Pronamic\PronamicPayDefaultPaymentMethods\Plugin::instance();
+
 \Pronamic\WordPress\Pay\Plugin::instance(
 	[
 		'file'                 => __FILE__,
