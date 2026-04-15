@@ -33,9 +33,10 @@
 		"automattic/jetpack-autoloader": "^5.0",
 		"composer/installers": "^2.3",
 		"woocommerce/action-scheduler": "^3.9",
+		"pronamic/pronamic-pay-default-payment-methods": "^1.0",
 		"wp-pay-extensions/contact-form-7": "^4.2",
 		"wp-pay-gateways/mollie": "^4.19",
-		"wp-pay/core": "^4.32"
+		"wp-pay/core": "^4.33"
 	},
 	"require-dev": {
 		"pronamic/changelog-md-to-wordpress-plugin-readme-txt": "dev-main",

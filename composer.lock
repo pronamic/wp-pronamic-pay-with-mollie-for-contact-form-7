@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0d6174a7514cf6b885349ce45ca0a3de",
+    "content-hash": "58f5ae506f7c5e36af90507aab9d32f0",
     "packages": [
         {
             "name": "automattic/jetpack-autoloader",
@@ -359,6 +359,47 @@
                 "source": "https://github.com/jsonrainbow/json-schema/tree/5.3.3"
             },
             "time": "2026-03-24T18:47:53+00:00"
+        },
+        {
+            "name": "pronamic/pronamic-pay-default-payment-methods",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pronamic/pronamic-pay-default-payment-methods.git",
+                "reference": "80c0b7521d55dfd3ef19e4d53aeb0cb8190ea047"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pronamic/pronamic-pay-default-payment-methods/zipball/80c0b7521d55dfd3ef19e4d53aeb0cb8190ea047",
+                "reference": "80c0b7521d55dfd3ef19e4d53aeb0cb8190ea047",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0",
+                "pronamic/wp-pay-logos": "^2.0",
+                "wp-pay/core": "^4.0"
+            },
+            "require-dev": {
+                "pronamic/wp-coding-standards": "^2.5",
+                "rector/rector": "^2.3",
+                "roots/wordpress-no-content": "^6.9"
+            },
+            "type": "wordpress-plugin",
+            "autoload": {
+                "psr-4": {
+                    "Pronamic\\PronamicPayDefaultPaymentMethods\\": "psr-4/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "description": "Default payment methods for the Pronamic Pay plugin for WordPress.",
+            "support": {
+                "issues": "https://github.com/pronamic/pronamic-pay-default-payment-methods/issues",
+                "source": "https://github.com/pronamic/pronamic-pay-default-payment-methods/tree/v1.0.1"
+            },
+            "time": "2026-04-15T12:12:12+00:00"
         },
         {
             "name": "pronamic/wp-datetime",
@@ -1066,16 +1107,16 @@
         },
         {
             "name": "wp-pay/core",
-            "version": "v4.32.0",
+            "version": "v4.33.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pronamic/wp-pay-core.git",
-                "reference": "aabfb86ae32e76775cc3a8e43386e4213dec1fd6"
+                "reference": "ce380797868afbf6b9e2e44f3cb314a66deed9cd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pronamic/wp-pay-core/zipball/aabfb86ae32e76775cc3a8e43386e4213dec1fd6",
-                "reference": "aabfb86ae32e76775cc3a8e43386e4213dec1fd6",
+                "url": "https://api.github.com/repos/pronamic/wp-pay-core/zipball/ce380797868afbf6b9e2e44f3cb314a66deed9cd",
+                "reference": "ce380797868afbf6b9e2e44f3cb314a66deed9cd",
                 "shasum": ""
             },
             "require": {
@@ -1155,7 +1196,7 @@
                 "issues": "https://github.com/wp-pay/core/issues",
                 "source": "https://github.com/wp-pay/core"
             },
-            "time": "2026-03-23T08:37:03+00:00"
+            "time": "2026-04-15T12:23:22+00:00"
         }
     ],
     "packages-dev": [
