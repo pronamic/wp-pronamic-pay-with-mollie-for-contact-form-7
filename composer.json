@@ -32,11 +32,11 @@
 		"php": ">=8.2",
 		"automattic/jetpack-autoloader": "^5.0",
 		"composer/installers": "^2.3",
-		"woocommerce/action-scheduler": "^3.9",
-		"pronamic/pronamic-pay-default-payment-methods": "^1.0",
+		"pronamic/pronamic-pay-default-payment-methods": "^1.1",
+		"woocommerce/action-scheduler": "^4.0",
 		"wp-pay-extensions/contact-form-7": "^4.2",
-		"wp-pay-gateways/mollie": "^4.19",
-		"wp-pay/core": "^4.33"
+		"wp-pay-gateways/mollie": "^4.20",
+		"wp-pay/core": "^4.34"
 	},
 	"require-dev": {
 		"pronamic/changelog-md-to-wordpress-plugin-readme-txt": "dev-main",

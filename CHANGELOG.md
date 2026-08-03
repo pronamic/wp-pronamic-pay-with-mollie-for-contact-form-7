@@ -7,6 +7,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 <!-- Start changelog -->
 
+## [1.17.0] - 2026-08-03
+
+### Added
+
+- Added default Pronamic Pay payment methods, following the move of payment method registration out of the core library.
+
+### Composer
+
+- Added `pronamic/pronamic-pay-default-payment-methods` `v1.0.1`.
+	Provides the default Pronamic Pay payment methods, previously registered from within `wp-pay/core`. Renames the iDEAL QR payment method to "iDEAL | Wero QR".
+	Release notes: https://github.com/pronamic/pronamic-pay-default-payment-methods/releases/tag/v1.0.1
+- Changed `wp-pay/core` from `v4.32.0` to `v4.33.0`.
+	Adds the `pronamic_pay_register_payment_methods` action to register payment methods in plugin space and moves the default payment method registration into the new `pronamic/pronamic-pay-default-payment-methods` package.
+	Release notes: https://github.com/pronamic/wp-pay-core/releases/tag/v4.33.0
+
+Full set of changes: [`1.16.0...1.17.0`][1.17.0]
+
+[1.17.0]: https://github.com/pronamic/wp-pronamic-pay-with-mollie-for-contact-form-7/compare/v1.16.0...v1.17.0
+
 ## [1.16.0] - 2026-04-02
 
 ### Changed
