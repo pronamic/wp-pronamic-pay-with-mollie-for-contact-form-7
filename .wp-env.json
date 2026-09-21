@@ -19,7 +19,10 @@
 		"wp-content/plugins/pronamic-pay-with-mollie-for-contact-form-7": "./build/project/"
 	},
 	"config": {
-		"PRONAMIC_PAY_DEBUG": true
+		"PRONAMIC_PAY_DEBUG": true,
+		"WP_DEBUG": true,
+		"WP_DEBUG_DISPLAY": true,
+		"WP_DEBUG_LOG": true
 	},
 	"testsEnvironment": false
 }
