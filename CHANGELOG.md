@@ -7,6 +7,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 <!-- Start changelog -->
 
+## [1.18.1] - 2026-11-02
+
+### Fixed
+
+- Contact Form 7 payments now include a payment line and the customer email on the billing and shipping address, which payment methods such as Klarna require.
+
+### Composer
+
+- Changed `wp-pay-extensions/contact-form-7` from `v4.2.2` to `v4.2.3`.
+	Adds a payment line to payments and sets the customer email on the billing and shipping address, both required by payment methods such as Klarna.
+	Release notes: https://github.com/pronamic/wp-pronamic-pay-contact-form-7/releases/tag/v4.2.3
+
+Full set of changes: [`1.18.0...1.18.1`][1.18.1]
+
+[1.18.1]: https://github.com/pronamic/wp-pronamic-pay-with-mollie-for-contact-form-7/compare/v1.18.0...v1.18.1
+
 ## [1.18.0] - 2026-09-28
 
 ### Changed
