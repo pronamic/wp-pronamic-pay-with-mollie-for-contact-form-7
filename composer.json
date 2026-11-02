@@ -50,20 +50,18 @@
 		"phpcs": "vendor/bin/phpcs -s -v --ignore=packages,build",
 		"build": [
 			"Pronamic\\ChangelogMdToWordPressPluginReadmeTxt\\Synchronizer::run",
-			"rm -rf ./build",
-			"mkdir ./build",
-			"mkdir ./build/stage-1",
-			"mkdir ./build/stage-2",
-			"rsync --recursive --verbose --exclude-from=.distignore --exclude-from=.gitignore ./ ./build/stage-1/",
+			"rm -rf ./build/stage-1",
+			"rsync --recursive --verbose --exclude-from=.distignore --exclude=/vendor/ --exclude=/packages/ ./ ./build/stage-1/",
 			"composer install --no-dev --prefer-dist --optimize-autoloader --working-dir=./build/stage-1/",
-			"rsync --recursive --verbose --exclude-from=.distignore ./build/stage-1/ ./build/stage-2/",
-			"vendor/bin/phpcbf -s -v --standard=phpcs-text-domain-fixer.xml ./build/stage-2/ || true",
-			"vendor/bin/wp i18n make-pot ./build/stage-2/ --slug=pronamic-pay-with-mollie-for-contact-form-7",
-			"vendor/bin/wp dist-archive ./build/stage-2/ --plugin-dirname=pronamic-pay-with-mollie-for-contact-form-7"
+			"rsync --recursive --delete --delete-excluded --verbose --exclude-from=.distignore ./build/stage-1/ ./build/pronamic-pay-with-mollie-for-contact-form-7/",
+			"vendor/bin/phpcbf -s -v --standard=phpcs-text-domain-fixer.xml ./build/pronamic-pay-with-mollie-for-contact-form-7/ || true",
+			"vendor/bin/wp i18n make-pot ./build/pronamic-pay-with-mollie-for-contact-form-7/ --slug=pronamic-pay-with-mollie-for-contact-form-7",
+			"vendor/bin/wp i18n make-mo ./build/pronamic-pay-with-mollie-for-contact-form-7/languages/",
+			"vendor/bin/wp dist-archive ./build/pronamic-pay-with-mollie-for-contact-form-7/ --plugin-dirname=pronamic-pay-with-mollie-for-contact-form-7 --force"
 		],
 		"translate": [
 			"@build",
-			"rsync --recursive --delete --verbose ./build/stage-2/languages/ ./languages/",
+			"rsync --recursive --delete --verbose ./build/pronamic-pay-with-mollie-for-contact-form-7/languages/ ./languages/",
 			"@update-po"
 		],
 		"update-po": "find languages/*.po -type f -exec msgmerge --update --backup=off {} languages/pronamic-pay-with-mollie-for-contact-form-7.pot \\;",

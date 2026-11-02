@@ -40,3 +40,5 @@ vendor/justinrainbow/json-schema/bin/
 vendor/pronamic/wp-pay-logos/docs/
 
 /build/
+
+/node_modules/
