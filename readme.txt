@@ -4,7 +4,7 @@ Tags: pronamic, pay, mollie, contact-form-7, contactform7
 Requires at least: 5.9
 Tested up to: 7.1
 Requires PHP: 8.3
-Stable tag: 1.18.1
+Stable tag: 1.19.0-rc.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -77,6 +77,30 @@ Discover all the benefits of Pronamic Pay Premium at [https://www.pronamicpay.co
 == Changelog ==
 
 <!-- Start changelog -->
+
+### [Unreleased]
+
+### [1.19.0-rc.1] - 2026-11-04
+
+#### Composer
+
+- Changed `automattic/jetpack-autoloader` from `v5.0.23` to `v6.0.3`. Jetpack Autoloader 6 only raises its minimum PHP version to 7.4. Version 6.0.3 hardens path handling.
+	Release notes: https://github.com/Automattic/jetpack-autoloader/blob/v6.0.3/CHANGELOG.md
+- Changed `giggsey/libphonenumber-for-php-lite` from `9.0.40` to `9.0.42`. Updated phone number metadata for several regions.
+	Release notes: https://github.com/giggsey/libphonenumber-for-php-lite/releases/tag/9.0.42
+- Changed `justinrainbow/json-schema` from `5.3.4` to `6.14.0`. New major version of the JSON Schema validator, now required by the Mollie, PayPal and Rabo Smart Pay gateways. An unresolvable `$ref` now throws instead of passing silently.
+	Release notes: https://github.com/jsonrainbow/json-schema/releases/tag/6.0.0
+	Release notes: https://github.com/jsonrainbow/json-schema/releases/tag/6.14.0
+- Added `marc-mabe/php-enum` `v4.7.2`. New dependency of `justinrainbow/json-schema` 6.
+	Release notes: https://github.com/marc-mabe/php-enum/releases/tag/v4.7.2
+- Changed `symfony/polyfill-mbstring` from `v1.38.2` to `v1.43.3`. Fixed `mb_strwidth()`, UCS-2 and `MB_CASE_TITLE` behaviour to match ext/mbstring.
+	Release notes: https://github.com/symfony/polyfill-mbstring/releases/tag/v1.43.3
+- Changed `wp-pay-gateways/mollie` from `v4.21.0` to `v4.22.0`. Allowed Jetpack Autoloader 6.x and now requires `justinrainbow/json-schema` `^6.8`.
+	Release notes: https://github.com/pronamic/wp-pronamic-pay-mollie/releases/tag/v4.22.0
+
+Full set of changes: [`1.18.1...1.19.0-rc.1`][1.19.0-rc.1]
+
+[1.19.0-rc.1]: https://github.com/pronamic/wp-pronamic-pay-with-mollie-for-contact-form-7/compare/v1.18.1...v1.19.0-rc.1
 
 ### [1.18.1] - 2026-11-02
 

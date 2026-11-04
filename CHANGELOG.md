@@ -9,10 +9,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.19.0-rc.1] - 2026-11-04
+
 ### Composer
 
-- Changed `automattic/jetpack-autoloader` from `v5.0.23` to `v6.0.2`. Jetpack Autoloader 6 only raises its minimum PHP version to 7.4.
-	Release notes: https://github.com/Automattic/jetpack-autoloader/blob/v6.0.2/CHANGELOG.md
+- Changed `automattic/jetpack-autoloader` from `v5.0.23` to `v6.0.3`. Jetpack Autoloader 6 only raises its minimum PHP version to 7.4. Version 6.0.3 hardens path handling.
+	Release notes: https://github.com/Automattic/jetpack-autoloader/blob/v6.0.3/CHANGELOG.md
 - Changed `giggsey/libphonenumber-for-php-lite` from `9.0.40` to `9.0.42`. Updated phone number metadata for several regions.
 	Release notes: https://github.com/giggsey/libphonenumber-for-php-lite/releases/tag/9.0.42
 - Changed `justinrainbow/json-schema` from `5.3.4` to `6.14.0`. New major version of the JSON Schema validator, now required by the Mollie, PayPal and Rabo Smart Pay gateways. An unresolvable `$ref` now throws instead of passing silently.
@@ -24,6 +26,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 	Release notes: https://github.com/symfony/polyfill-mbstring/releases/tag/v1.43.3
 - Changed `wp-pay-gateways/mollie` from `v4.21.0` to `v4.22.0`. Allowed Jetpack Autoloader 6.x and now requires `justinrainbow/json-schema` `^6.8`.
 	Release notes: https://github.com/pronamic/wp-pronamic-pay-mollie/releases/tag/v4.22.0
+
+Full set of changes: [`1.18.1...1.19.0-rc.1`][1.19.0-rc.1]
+
+[1.19.0-rc.1]: https://github.com/pronamic/wp-pronamic-pay-with-mollie-for-contact-form-7/compare/v1.18.1...v1.19.0-rc.1
 
 ## [1.18.1] - 2026-11-02
 
